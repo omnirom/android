@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="xda" />
+  <project path="android" name="android" remote="private" revision="android-4.3" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
