@@ -9,6 +9,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="private"
+           review="build1.dev.xda-developers.com"
            fetch="ssh://git@build2.dev.xda-developers.com" />
 
   <remote  name="github"
