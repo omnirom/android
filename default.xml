@@ -8,25 +8,22 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="private"
+  <remote  name="omnirom"
            review="gerrit.omnirom.org"
-           fetch="ssh://git@build2.dev.xda-developers.com" />
-
-  <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com/omnirom" />
 
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="private" revision="android-4.3" groups="pdk" >
+  <project path="build" name="android_build" remote="omnirom" revision="android-4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="private" revision="android-4.3" />
+  <project path="android" name="android" remote="omnirom" revision="android-4.3" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="private" revision="android-4.3" />
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -38,10 +35,10 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="private" revision="android-4.3" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="omnirom" revision="android-4.3" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="private" revision="android-4.3" />
-  <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="private" revision="android-4.3" />
+  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="omnirom" revision="android-4.3" />
+  <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="omnirom" revision="android-4.3" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -53,11 +50,11 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="private" revision="android-4.3" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="omnirom" revision="android-4.3" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="private" revision="android-4.3" />
-  <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="private" revision="android-4.3" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="omnirom" revision="android-4.3" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="omnirom" revision="android-4.3" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
@@ -76,10 +73,10 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="private" revision="android-4.3" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.3" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="private" revision="android-4.3" />
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-4.3" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -92,7 +89,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="private" revision="android-4.3" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-4.3" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -119,7 +116,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="android_external_icu4c" remote="private" revision="android-4.3" />
+  <project path="external/icu4c" name="android_external_icu4c" remote="omnirom" revision="android-4.3" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -219,7 +216,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webkit" name="android_external_webkit" remote="private" revision="android-4.3" />
+  <project path="external/webkit" name="android_external_webkit" remote="omnirom" revision="android-4.3" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
@@ -228,27 +225,27 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="private" revision="android-4.3" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="private" revision="android-4.3" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.3" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-4.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="private" revision="android-4.3" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.3" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="private" revision="android-4.3" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-4.3" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="private" revision="android-4.3" />
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-4.3" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="private" revision="android-4.3" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-4.3" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -260,34 +257,34 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="private" revision="android-4.3" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="private" revision="android-4.3" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.3" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.3" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="private" revision="android-4.3" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="private" revision="android-4.3" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-4.3" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.3" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="private" revision="android-4.3" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="private" revision="android-4.3" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-4.3" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-4.3" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="private" revision="android-4.3" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="private" revision="android-4.3" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-4.3" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="omnirom" revision="android-4.3" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="private" revision="android-4.3" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-4.3" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="private" revision="android-4.3" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-4.3" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="android_libcore" remote="private" revision="android-4.3" />
+  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="private" revision="android-4.3" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="private" revision="android-4.3" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="private" revision="android-4.3" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -295,33 +292,33 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="private" revision="android-4.3" />
+  <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="private" revision="android-4.3" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="private" revision="android-4.3" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="private" revision="android-4.3" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="private" revision="android-4.3" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="private" revision="android-4.3" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="private" revision="android-4.3" />
-  <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="private" revision="android-4.3" />
+  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="private" revision="android-4.3" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="private" revision="android-4.3" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="private" revision="android-4.3" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -331,7 +328,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="private" revision="android-4.3" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-4.3" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -341,7 +338,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="private" revision="android-4.3" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-4.3" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -353,7 +350,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="private" revision="android-4.3" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-4.3" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -391,12 +388,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="android_system_core" remote="private" revision="android-4.3" />
+  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.3" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="private" revision="android-4.3" />
+  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-4.3" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -407,6 +404,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/custom" name="android_vendor_custom" remote="private" revision="android-4.3" />
-  <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="private" revision="android-4.3" />
+  <project path="vendor/custom" name="android_vendor_custom" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.3" />
 </manifest>
