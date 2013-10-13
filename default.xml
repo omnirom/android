@@ -13,13 +13,13 @@
            fetch="ssh://git@build2.dev.xda-developers.com" />
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com/omnirom" />
 
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="private" revision="android-4.3" groups="pdk" >
+  <project path="build" name="android_build" remote="github" revision="android-4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
