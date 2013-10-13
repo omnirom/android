@@ -59,6 +59,9 @@
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
   <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
+  <project path="device/sony/common" name="android_device_sony_common" remote="omnirom" revision="android-4.3" groups="device" />
+  <project path="device/sony/fusion3-common" name="android_device_sony_fusion3-common" remote="omnirom" revision="android-4.3" groups="device" />
+  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="omnirom" revision="android-4.3" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
