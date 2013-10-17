@@ -6,6 +6,10 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
+           <!--Nexprience-->
+  <remote  name="NexPerience"
+           fetch="https://github.com/NexPerience" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -40,7 +44,7 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="omnirom" revision="android-4.3" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="omnirom" revision="android-4.3" />
+  <project path="device/asus/grouper" name="android_device_omnirom_grouper" remote="NexPerience" revision="android-4.3" />
   <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="omnirom" revision="android-4.3" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -315,13 +319,13 @@
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="NexPerience" revision="android-4.3" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-4.3" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings_omnirom" remote="NexPerience" revision="android-4.3" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
