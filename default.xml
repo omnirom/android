@@ -58,6 +58,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="omnirom" revision="android-4.3" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="omnirom" revision="android-4.3" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="omnirom" revision="android-4.3" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
@@ -408,5 +409,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/custom" name="android_vendor_custom" remote="omnirom" revision="android-4.3" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung"  remote="github" revision="cm-10.2" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.3" />
 </manifest>
