@@ -58,6 +58,8 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="omnirom" revision="android-4.3" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="omnirom" revision="android-4.3" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="omnirom" revision="android-4.3" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="omnirom" revision="android-4.3" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
@@ -276,6 +278,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-4.3" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="omnirom" revision="android-4.3" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -283,6 +286,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="android_libcore" remote="omnirom" revision="android-4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.3"/>
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
