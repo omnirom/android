@@ -24,6 +24,7 @@
   </project>
 
   <project path="android" name="android" remote="omnirom" revision="android-4.3" />
+  <project path="OmniBot" name="omni_tools_Bot" remote="omnirom" revision="master" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.3" />
