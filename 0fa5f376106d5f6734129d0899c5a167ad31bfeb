@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba092121_7b609b35",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2013-10-17T15:19:05Z",
+      "side": 1,
+      "message": "This, not, however",
+      "revId": "0fa5f376106d5f6734129d0899c5a167ad31bfeb",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
