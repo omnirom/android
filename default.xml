@@ -59,11 +59,6 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="omnirom" revision="android-4.3" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="omnirom" revision="android-4.3" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
