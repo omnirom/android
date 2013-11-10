@@ -26,7 +26,7 @@
   <project path="android" name="android" remote="omnirom" revision="android-4.4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" />
+  <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
