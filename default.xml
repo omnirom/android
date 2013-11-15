@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-4.4_r1"
+  <default revision="refs/tags/android-4.4_r1.1"
            remote="aosp"
            sync-j="4" />
 
