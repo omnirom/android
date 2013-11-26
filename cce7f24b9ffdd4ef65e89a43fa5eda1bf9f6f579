@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b8ed5af_e4930e52",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2013-11-26T23:14:14Z",
+      "side": 1,
+      "message": "Um no way - we\u0027re not directly pulling in CM repos...",
+      "revId": "cce7f24b9ffdd4ef65e89a43fa5eda1bf9f6f579",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
