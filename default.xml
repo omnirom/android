@@ -38,6 +38,9 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
+  <project path="device/samsung/trebon" name="TheWhisp/android_device_samsung_s7500" groups="device,msm7x72a" revision="cm-10.2" />
+  <project path="device/samsung/msm7x72a" name="TheWhisp/android_device_samsung_msm7x27a-common" groups="device,msm7x72a" revision="cm-10.2"/>
+  <project path="device/samsung/msm7x72a-kernel" name="TheWhisp/android_kernel_samsung_msm7x27a" groups="device,msm7x72a" revision="cm-11.0" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -445,6 +448,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
+  <project path="vendor/samsung" name="TesterTerbon/proprietary_vendor_samsung_msm7x27a" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 </manifest>
