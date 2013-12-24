@@ -440,7 +440,7 @@
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-4.4" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-4.4" />
+  <project path="system/vold" name="android_system_vold" remote="omnirom"  />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -452,6 +452,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/samsung" name="TesterTerbon/proprietary_vendor_samsung_msm7x27a" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung_msm7x27a" remote="TesterTerbon" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 </manifest>
