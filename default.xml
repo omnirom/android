@@ -10,10 +10,14 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-
+           
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
+
+  <remote  name="TesterTerbon"
+           review="tester@gerrit.omnirom.org"
+           fetch="https://github.com/TesterTerbon" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -38,9 +42,9 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/samsung/trebon" name="TesterTerbon/android_device_samsung_s7500-trebon" groups="device,msm7x72a" revision="android-4.4" />
-  <project path="device/samsung/msm7x72a" name="TesterTerbon/android_device_samsung_msm7x27a-common" groups="device,msm7x72a" revision="android-4.4"/>
-  <project path="device/samsung/msm7x72a-kernel" name="TesterTerbon/android_kernel_samsung_msm7x27a" groups="device,msm7x72a" revision="android-4.4" />
+  <project path="device/samsung/trebon" name="android_device_samsung_s7500-trebon" remote="TesterTerbon" groups="device,msm7x72a" revision="android-4.4" />
+  <project path="device/samsung/msm7x72a" name="android_device_samsung_msm7x27a-common" remote="TesterTerbon" groups="device,msm7x72a" revision="android-4.4"/>
+  <project path="device/samsung/msm7x72a-kernel" name="android_kernel_samsung_msm7x27a" remote="TesterTerbon" groups="device,msm7x72a" revision="android-4.4" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
