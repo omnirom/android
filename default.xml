@@ -202,7 +202,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-4.4" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
