@@ -13,6 +13,7 @@
 
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
