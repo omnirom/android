@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b77b57d_3a95f2e7",
+        "filename": "default.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2014-05-08T20:22:44Z",
+      "side": 1,
+      "message": "name\u003d\"CyanogenMod/android_packages_apps_ThemeChooser\"",
+      "revId": "32895287247f75f8893e9a25cbd34912d6f4089d",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
