@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -78,7 +78,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
-  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" />
@@ -154,6 +154,7 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
+  <project path="external/libexif" name="platform/external/libexif" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
@@ -168,6 +169,7 @@
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
+  <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -271,10 +273,10 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -419,6 +421,8 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
