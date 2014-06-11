@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b77b57d_bd1d7167",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1000313
+      },
+      "writtenOn": "2014-06-11T19:14:16Z",
+      "side": 0,
+      "message": "groups\u003d\"qcom\" is still needed",
+      "revId": "36bc40b05fb16eff96701bfceeab3afa6a245686",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
