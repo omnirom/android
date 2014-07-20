@@ -120,6 +120,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-4.4" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-4.4" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
@@ -229,6 +230,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="android_external_srec" remote="omnirom" revision="android-4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
