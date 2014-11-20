@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-5.0.0_r6"
+  <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
