@@ -6,6 +6,12 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
+  <remote name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+           
+  <remote name="rm"
+           fetch="https://github.com/android-armv7a-belalang-tempur/" />    
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -24,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-5.0" />
+  <project path="android" name="android" remote="rm" revision="android-5.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
