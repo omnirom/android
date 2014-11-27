@@ -61,7 +61,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000/" remote="rm" revision="android-5.0" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="rm" revision="android-5.0" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
