@@ -35,7 +35,6 @@
   <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/diskinstaller" name="android_diskinstaller" remote="rm" revision="android-5.0" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
@@ -364,7 +363,7 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-5.0" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="rm" revision="android-5.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.0" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -419,6 +418,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnirom" revision="android-5.0" />
