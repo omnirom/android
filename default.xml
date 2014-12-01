@@ -418,7 +418,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="rm" revision="android-5.0" />
+  <!--project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="rm" revision="android-5.0" -->
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnirom" revision="android-5.0" />
