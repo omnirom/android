@@ -38,7 +38,7 @@
   <!--project path="bootable/diskinstaller" name="android_diskinstaller" remote="rm" revision="android-5.0" -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="rm" revision="android-5.0" groups="pdk"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
@@ -583,7 +583,7 @@
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-5.0" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <!-- New Add rsc for omni  -->
-  <project path="system/vold" name="android_system_vold" remote="rm" revision="android-5.0" />
+  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-5.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -599,7 +599,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <!-- New Add rsc for rm  -->
-  <project path="vendor/omni" name="android_vendor_omni" remote="rm" revision="android-5.0" />
+  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-5.0" />
   <!-- New Add rsc for github  -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" />
   <!--project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="rm" revision="android-5.0" -->
