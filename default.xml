@@ -10,6 +10,9 @@
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
            
+  <remote name="Erc"
+           fetch="https://github.com/ErcOne/" />
+           
   <remote name="rm"
            fetch="https://github.com/android-armv7a-belalang-tempur/" />    
 
