@@ -445,13 +445,14 @@
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <!-- New Add rsc for rm  -->
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" />
+  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" /-->
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/M/sicFX" />
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-5.0" />
