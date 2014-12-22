@@ -449,7 +449,7 @@
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-5.0" />
+  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-5.0" /-->
   <!--project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" /-->
   <!-- New Add rsc for rm  -->
   <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" /-->
