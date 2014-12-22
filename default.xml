@@ -410,7 +410,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.0" />
   <!-- New Add rsc for rm  -->
   <!--project path="hardware/ril" name="platform/hardware/ril" groups="pdk" -->
-  <project path="hardware/ril" name="sl_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" />
+  <project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -421,7 +421,7 @@
   <project path="libcore" name="android_libcore" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-5.0" />
+  <!--project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-5.0" /-->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
@@ -457,8 +457,9 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="rm" revision="android-5.0"/>
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="rm" revision="android-5.0" />
+  <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-5.0" />
@@ -466,6 +467,7 @@
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <!-- New Add rsc for omni  -->
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="rm" revision="android-5.0" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-5.0" />
