@@ -484,7 +484,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <!-- New Add rsc for omni  -->
-  <!--project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="rm" revision="android-5.0" -->
+  <project path="packages/apps/CMFileManager" name="cm_android_packages_apps_CMFileManager" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-5.0" />
