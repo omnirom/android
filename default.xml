@@ -73,6 +73,7 @@
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="rm" revision="android-5.0" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rm" revision="android-5.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
