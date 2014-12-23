@@ -412,7 +412,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.0" />
   <!-- New Add rsc for rm  -->
   <!--project path="hardware/ril" name="platform/hardware/ril" groups="pdk" -->
-  <project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0.2" groups="pdk" />
+  <project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
