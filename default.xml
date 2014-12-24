@@ -154,6 +154,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="rm" revision="android-5.0" />
   <!-- New Add rsc for omni  -->
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
