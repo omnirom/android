@@ -349,7 +349,7 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
+  <project path="frameworks/opt/net/wifi" name="cm_android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
