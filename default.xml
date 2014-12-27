@@ -219,7 +219,7 @@
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <!-- New Add rsc for omni  -->
-  <project path="external/libsepol" name="platform/external/libsepol" revision="refs/tags/android-5.0.0_r7" groups="pdk" />
+  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
@@ -310,8 +310,8 @@
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <!-- New Add rsc for omni  -->
-  <!--project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" /-->
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="rm" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <!--project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="rm" groups="pdk" /-->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -349,7 +349,7 @@
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <project path="frameworks/opt/net/wifi" name="cm_android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
