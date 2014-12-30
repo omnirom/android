@@ -322,8 +322,8 @@
   <!--project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" /-->
   <!-- New Add rsc for omni  -->
   <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
-  <!--project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" /-->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
+  <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" /-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -355,8 +355,8 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
-  <!--project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" /-->
+  <!--project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /-->
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -620,6 +620,5 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="rm" revision="android-5.0" />
   <!-- New Add rsc for github  -->
   <!--project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" /-->
-  <!--project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="rm" revision="android-5.0" -->
 
 </manifest>
