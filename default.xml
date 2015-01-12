@@ -64,6 +64,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
