@@ -347,7 +347,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="rm" revision="android-5.0" groups="pdk-cw-fs" /-->
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
@@ -461,8 +461,8 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <!--project path="packages/apps/Mms" name="platform/packages/apps/Mms" /-->
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
-  <!--project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="rm" revision="android-5.0" /-->
+  <!--project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" /-->
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="rm" revision="android-5.0" />
   <!--project path="packages/apps/Music" name="platform/packages/apps/Music" /-->
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="rm" revision="android-5.0" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="rm" revision="android-5.0" />
@@ -517,7 +517,8 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" />
+  <project path="packages/services/Mms" name="android_packages_services_Mms" remote="rm" revision="android-5.0" />
+  <!--project path="packages/services/Mms" name="platform/packages/services/Mms" /-->
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
   <!-- New Add rsc for omni  -->
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-5.0" />
