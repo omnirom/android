@@ -347,7 +347,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="rm" revision="android-5.0" groups="pdk-cw-fs" /-->
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
