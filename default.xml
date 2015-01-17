@@ -433,7 +433,7 @@
   <!--project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" -->
   <!--project path="packages/apps/Browser" name="platform/packages/apps/Browser" /-->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
-  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rm" revision="android-5.0" />
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-5.0" />
@@ -464,8 +464,8 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
   <!--project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="rm" revision="android-5.0" /-->
   <!--project path="packages/apps/Music" name="platform/packages/apps/Music" /-->
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="rm" revision="android-5.0" />
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
   <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
@@ -490,7 +490,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <!-- New Add rsc for omni  -->
-  <project path="packages/apps/CMFileManager" name="cm_android_packages_apps_CMFileManager" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-5.0" />
