@@ -152,7 +152,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="rm" revision="android-5.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.0" />
   <!-- New Add rsc for omni  -->
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
@@ -231,7 +231,7 @@
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
-  <project path="external/libtruezip" name="android_external_libtruezip" remote="rm" revision="android-5.0" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.0" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
