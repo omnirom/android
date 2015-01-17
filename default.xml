@@ -483,7 +483,7 @@
   <!--roject path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" /-->
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rm" revision="android-5.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
