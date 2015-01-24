@@ -27,7 +27,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the OMNIROM trees, use a command like this:
 
-    repo init -u git://github.com/omnirom/android.git -b <branch>
+    repo init -u git://github.com/android-armv7a-belalang-tempur/android.git -b android-5.0
 
 Then to sync up:
 
