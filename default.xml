@@ -322,7 +322,7 @@
   <!-- New Add rsc for rm  -->
   <!--project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" /-->
   <!-- New Add rsc for omni  -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" /-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
