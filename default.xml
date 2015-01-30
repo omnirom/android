@@ -38,7 +38,7 @@
   <!--project path="bootable/diskinstaller" name="android_diskinstaller" remote="rm" revision="android-5.0" -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.3" groups="pdk"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
