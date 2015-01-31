@@ -435,7 +435,7 @@
   <!--project path="packages/apps/Browser" name="platform/packages/apps/Browser" /-->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-5.0" />
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
