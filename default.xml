@@ -338,7 +338,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="github" revision="cm-12.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
@@ -435,7 +435,7 @@
   <!--project path="packages/apps/Browser" name="platform/packages/apps/Browser" /-->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rm" revision="android-5.0" />
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -505,7 +505,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="github" revision="cm-12.0" groups="pdk-cw-fs" />
+  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
