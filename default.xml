@@ -523,7 +523,7 @@
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
   <!-- New Add rsc for omni  -->
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-5.0" />
-  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="omnirom" revision="android-5.0" />
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
