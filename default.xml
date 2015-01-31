@@ -335,7 +335,7 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="github" revision="cm-12.0" groups="pdk-cw-fs" />
