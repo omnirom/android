@@ -81,8 +81,8 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
-  <!--project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-5.0" groups="pdk" -->
+  <!--project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" /-->
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <!-- New Add rsc for omni  -->
@@ -357,7 +357,7 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
   <!--project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /-->
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rm" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
