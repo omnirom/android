@@ -416,7 +416,7 @@
   <!--project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" /-->
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/samsung" name="DirtyUnicorns/android_hardware_samsung" remote="github" revision="lollipop-caf" />
   <!--project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="rm" revision="android-5.0.2" groups="exynos4" /-->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
