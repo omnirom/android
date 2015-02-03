@@ -625,6 +625,6 @@
   <!-- New Add rsc for rm  -->
   <project path="vendor/omni" name="android_vendor_omni" remote="rm" revision="android-5.0" />
   <!-- New Add rsc for github  -->
-  <!--project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" /-->
+  <project path="packages/apps/DU-Tweaks" name="android-armv7a-belalang-tempur/android_packages_apps_DU-Tweaks" remote="github" revision="lollipop" />
 
 </manifest>
