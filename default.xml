@@ -320,9 +320,9 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <!--project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" /-->
+  <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
   <!-- New Add rsc for omni  -->
-  <project path="frameworks/av" name="android_frameworks_av-2" remote="rm" revision="lollipop-caf" groups="pdk" />
+  <!--project path="frameworks/av" name="android_frameworks_av-2" remote="rm" revision="lollipop-caf" groups="pdk" /-->
   <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" /-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
@@ -335,8 +335,8 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <project path="frameworks/native" name="DirtyUnicorns/android_frameworks_native" remote="github" revision="lollipop-caf" groups="pdk" />
-  <!--project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" /-->
+  <!--project path="frameworks/native" name="DirtyUnicorns/android_frameworks_native" remote="github" revision="lollipop-caf" groups="pdk" /!-->
+  <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" /-->
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks_opt_calendar" groups="pdk-cw-fs" />
