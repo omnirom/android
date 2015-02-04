@@ -625,6 +625,7 @@
   <!-- New Add rsc for rm  -->
   <project path="vendor/omni" name="android_vendor_omni" remote="rm" revision="android-5.0" />
   <!-- New Add rsc for github  -->
-  <project path="packages/apps/DU-Tweaks" name="android-armv7a-belalang-tempur/android_packages_apps_DU-Tweaks" remote="github" revision="lollipop" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="rm" revision="lollipop" />
+  <project path="packages/apps/DU-Changelog" name="android_packages_apps_DU-Changelog" remote="rm" revision="lollipop" />
 
 </manifest>
