@@ -471,7 +471,7 @@
   <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->
   <!-- New Add rsc for omni  -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="rm" revision="android-5.0" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-5.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
