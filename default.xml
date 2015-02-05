@@ -160,7 +160,6 @@
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="cm-12.0" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
