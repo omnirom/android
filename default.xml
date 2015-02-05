@@ -276,7 +276,6 @@
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk-cw-fs" />
   <project path="external/mtpd" name="platform/external/mtpd" groups="pdk-cw-fs" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-12.0" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" />
   <project path="external/nanohttpd" name="platform/external/nanohttpd" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk-cw-fs" />
