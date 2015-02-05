@@ -639,7 +639,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <project path="system/core" name="AOKP/system_core" remote="github" revision="lollipop" groups="pdk" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-12.0" groups="pdk" />
   <!-- New Add rsc for omni  -->
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
