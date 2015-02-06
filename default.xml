@@ -131,7 +131,7 @@
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="omnirom" revision="android-5.0" groups="pdk,linux,arm" -->
 
   <!-- /==============("system")========================================================================/ -->
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <!--project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.0" groups="pdk" /-->
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.0" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-5.0" />
@@ -229,6 +229,7 @@
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
 
   <!-- /==============("system")========================================================================/ -->
+  <project path="system/core" name="android_system_core" remote="rm" revision="android-5.0" groups="pdk" />
   <!--project path="system/vold" name="android_system_vold" remote="rm" revision="android-5.0" /-->
 
   <!-- /==============("vendor")========================================================================/ -->
