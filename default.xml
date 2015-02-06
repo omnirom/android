@@ -657,7 +657,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 
-  <!-- /==============("SDK--")========================================================================/ -->
+  <!-- /==============("SDK")========================================================================/ -->
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   
   <!-- /==============("system")========================================================================/ -->
