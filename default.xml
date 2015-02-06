@@ -27,7 +27,7 @@
            sync-j="4" />
 
   <!-- New Add rsc from omni  -->
-  <!-------------------------------------------------(https://github.com/omnirom)------------------------------------------------->
+  <!-------------------------------------------------"https://github.com/omnirom"-----------------------------------------------/-->
   <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
