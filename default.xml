@@ -26,28 +26,190 @@
            sync-c="true"
            sync-j="4" />
 
+   <!-- New Add rsc from omni  -->
+  <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
+  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="development" name="android_development" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-5.0" />
+  <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" revision="android-5.0" />
+  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-5.0" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-5.0" />
+  <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-5.0"/>
+  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/srec" name="android_external_srec" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-5.0" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.0" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-5.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-5.0" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-5.0" groups="omap4" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="omnirom" revision="android-5.0" />
+  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <!--project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-5.0" /-->
+  <!--project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" -->
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-5.0" />
+  <!--project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-5.0" /-->
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" revision="android-5.0" />
+  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-5.0" /-->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="omnirom" revision="android-5.0" />
+  <!--project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-5.0" -->
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-5.0" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-5.0" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-5.0" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" revision="android-5.0" />
+  <!--project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" remote="omnirom" revision="android-5.0" groups="pdk,darwin,mips" -->
+  <!--project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" remote="omnirom" revision="android-5.0" groups="pdk,darwin,x86" -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" revision="android-5.0" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="omnirom" revision="android-5.0" groups="pdk,linux,arm" -->
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="omnirom" revision="android-5.0" groups="pdk,linux,arm" -->
+  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.0" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-5.0" />
+  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-5.0" />
+
+  <!-- New Add rsc from CyanogenMod  -->
+  <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" remote="github" revision="cm-12.0" />
+  <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" remote="github" revision="cm-12.0" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.0" />
+  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="github" revision="cm-12.0" />
+  <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" remote="github" revision="cm-12.0" />
+  <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" remote="github" revision="cm-12.0" />
+  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" revision="cm-12.0" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
+  <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" remote="github" revision="cm-12.0" groups="pdk" />  
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-12.0" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="github" revision="cm-12.0" />
+  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="github" revision="cm-12.0" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-12.0" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.0" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="cm-12.0" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.0" />
+  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="github" revision="cm-12.0" />
+  <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="github" revision="cm-12.0" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="cm-12.0" />
+  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="github" revision="cm-12.0" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-12.0" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-12.0" />
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.0" />
+  <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" remote="github" revision="cm-12.0" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.0" />
+  <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="github" revision="cm-12.0" />
+  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-12.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-12.0" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-12.0" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="github" revision="cm-12.0" />
+  <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" remote="github" revision="cm-12.0" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="github" revision="cm-12.0" />
+  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" remote="github" revision="cm-12.0" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-12.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.0" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.0" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-12.0" />
+  <project path="external/gmock" name="CyanogenMod/android_external_gmock" remote="github" revision="cm-12.0" />
+  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" remote="github" revision="cm-12.0" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.0" />
+  <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" remote="github" revision="cm-12.0" />
+  <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" remote="github" revision="cm-12.0" />
+  <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" remote="github" revision="cm-12.0" />
+
+  <!-- New Add rsc for rm  -->
   <project path="build" name="android_build" remote="rm" revision="android-5.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <!-- New Add rsc for rm  -->
+  <!--project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" /-->
+  <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
+  <!--project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" /-->
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="rm" revision="android-5.0" />
+  <!--project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="rm" revision="android-5.0.2" groups="exynos4" /-->
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="rm" revision="android-5.0" />
+  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" /-->
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
+  <!--project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="rm" revision="android-5.0" /-->
+  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rm" revision="android-5.0" />
+  <!--project path="packages/services/Mms" name="android_packages_services_Mms" remote="rm" revision="android-5.0" /-->
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
+  <!--project path="system/vold" name="android_system_vold" remote="rm" revision="android-5.0" /-->
+  <project path="vendor/omni" name="android_vendor_omni" remote="rm" revision="android-5.0" />
   <project path="android" name="android" remote="rm" revision="android-5.0" />
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
   <!--project path="bootable/diskinstaller" name="android_diskinstaller" remote="rm" revision="android-5.0" -->
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="rm" revision="android-5.0" />
+
+
+
+  <!-- New Add rsc for AOSP  -->
+    <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <!-- New Add rsc for omni  -->
-  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <!-- New Add rsc for omni  -->
-  <project path="development" name="android_development" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" />  
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -55,7 +217,6 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
@@ -64,43 +225,28 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <!-- New Add rsc for rm  -->
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="rm" revision="android-5.0" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
-  <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="github" revision="cm-12.0" />
-  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-12.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-12.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-12.0" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-12.0" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" />
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-12.0" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
   <!--project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" /-->
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="github" revision="cm-12.0" />
-  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-5.0" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />  
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
-  <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" remote="github" revision="cm-12.0" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" revision="android-5.0" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />  
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -131,50 +277,33 @@
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />  
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.0" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
-  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="github" revision="cm-12.0" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
-  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" remote="github" revision="cm-12.0" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-12.0" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" />
-  <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-5.0" />
+  <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />  
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />  
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <project path="external/fio" name="platform/external/fio" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.0" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/fio" name="platform/external/fio" />  
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-5.0" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />  
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.0" />
   <project path="external/glide" name="platform/external/glide" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
@@ -182,38 +311,27 @@
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="github" revision="cm-12.0" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/gmock" name="CyanogenMod/android_external_gmock" remote="github" revision="cm-12.0" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" remote="github" revision="cm-12.0" />
-  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.0" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
-  <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" remote="github" revision="cm-12.0" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />  
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
-  <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />  
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
-  <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
-  <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" remote="github" revision="cm-12.0" />
-  <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" remote="github" revision="cm-12.0" />
+  <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />  
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
@@ -221,49 +339,32 @@
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libedit" name="platform/external/libedit" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="external/libhevc" name="platform/external/libhevc" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.0" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-5.0" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="github" revision="cm-12.0" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="github" revision="cm-12.0" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />  
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />  
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <!-- New Add rsc for omni  -->
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
-  <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="cm-12.0" />
+  <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />  
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
-  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="github" revision="cm-12.0" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
-  <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-12.0" />
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-12.0" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
-  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.0" />
-  <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" remote="github" revision="cm-12.0" />
+  <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />  
+  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />  
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
-  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.0" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />  
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
-  <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" />  
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" />
@@ -274,8 +375,7 @@
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk-cw-fs" />
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk-cw-fs" />
-  <project path="external/mtpd" name="platform/external/mtpd" groups="pdk-cw-fs" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-12.0" />
+  <project path="external/mtpd" name="platform/external/mtpd" groups="pdk-cw-fs" />  
   <project path="external/nanohttpd" name="platform/external/nanohttpd" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk-cw-fs" />
@@ -285,135 +385,88 @@
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk-cw-fs" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-5.0"/>
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" /> 
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
-  <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="github" revision="cm-12.0" />
-  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />  
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
-  <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
-  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="github" revision="cm-12.0" />
+  <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />  
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-12.0" />
+  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />  
   <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" groups="pdk-cw-fs" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" groups="pdk-cw-fs" />
-  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.0" />
-  <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="cm-12.0" />
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" groups="pdk-cw-fs" />  
+  <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" />  
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
-  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <!-- New Add rsc for rm  -->
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />  
+  <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />  
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
-  <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" remote="github" revision="cm-12.0" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" remote="github" revision="cm-12.0" />
-  <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" remote="github" revision="cm-12.0" />
-  <project path="external/srec" name="android_external_srec" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
-  <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.0" />
+  <project path="external/speex" name="platform/external/speex" groups="pdk" />  
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />  
+  <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />  
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
-  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-5.0" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />  
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="github" revision="cm-12.0" />
+  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />  
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" remote="github" revision="cm-12.0" />
-  <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" remote="github" revision="cm-12.0" />
+  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />  
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <!--project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="omnirom" groups="pdk" /-->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" revision="cm-12.0" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />  
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <!-- New Add rsc for rm  -->
-  <!--project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" /-->
-  <!-- New Add rsc for omni  -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <!--project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" /-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />    
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <!-- New Add rsc for rm  -->
   <!--project path="frameworks/native" name="DirtyUnicorns/android_frameworks_native" remote="github" revision="lollipop-caf" groups="pdk" /!-->
-  <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks_opt_calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <!-- New Add rsc for rm  -->
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /-->
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <!--project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /-->  
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.0" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />  
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
-  <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />   
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
   <!-- New Add rsc for omni  -->
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/akm" name="platform/hardware/akm" />  
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -429,154 +482,71 @@
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <!-- New Add rsc for omni  -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" /> 
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <!-- New Add rsc for omni  -->
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-5.0" groups="qcom" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="omnirom" revision="android-5.0" />
+  <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />  
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <!-- New Add rsc for omni  -->
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-5.0" groups="qcom" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <!-- New Add rsc for omni  -->
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.0" />
-  <!-- New Add rsc for rm  -->
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />  
   <!--project path="hardware/ril" name="platform/hardware/ril" groups="pdk" -->
-  <!--project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" /-->
-  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="rm" revision="android-5.0" />
-  <!--project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="rm" revision="android-5.0.2" groups="exynos4" /-->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <!-- New Add rsc for omni  -->
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-5.0" groups="omap4" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="omnirom" revision="android-5.0" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="omnirom" revision="android-5.0" />
-  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
-  <!--project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-5.0" /-->
+  <!-- New Add rsc for omni  -->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" -->
-  <!--project path="packages/apps/Browser" name="platform/packages/apps/Browser" /-->
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rm" revision="android-5.0" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" /> 
+  <!--project path="packages/apps/Browser" name="platform/packages/apps/Browser" /-->  
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" revision="android-5.0" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-5.0" />
-  <!--project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-5.0" /-->
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-5.0" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />  
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <!-- New Add rsc for rm  -->
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="rm" revision="android-5.0" />
   <!--project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" /-->
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-5.0" /-->
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />  
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" /> 
   <!--project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" /-->
-  <!-- New Add rsc for rm  -->
-  <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" /-->
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <!--project path="packages/apps/Mms" name="platform/packages/apps/Mms" /-->
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
-  <!--project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="rm" revision="android-5.0" /-->
-  <!--project path="packages/apps/Music" name="platform/packages/apps/Music" /-->
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
-  <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="rm" revision="android-5.0" />
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="rm" revision="android-5.0" />
-  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-5.0" />
+  <!--project path="packages/apps/Music" name="platform/packages/apps/Music" /-->  
+  <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->  
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />  
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <!--roject path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" /-->
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rm" revision="android-5.0" />
+  <!--roject path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" /-->   
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnirom" revision="android-5.0" />
-  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="omnirom" revision="android-5.0" />
-  <project path="packages/experimental" name="platform/packages/experimental" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-5.0" -->
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />  
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />  
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" /> 
+  <project path="packages/experimental" name="platform/packages/experimental" />  
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages_providers_CalendarProvider" groups="pdk-cw-fs" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-5.0" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" />  
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />  
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <!--project path="packages/services/Mms" name="android_packages_services_Mms" remote="rm" revision="android-5.0" /-->
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-5.0" />
-  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
+  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />  
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <!-- New Add rsc for omni  -->
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-5.0" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />  
   <project path="pdk" name="platform/pdk" groups="pdk" />
+   <!-- New Add rsc for omni  -->
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -595,30 +565,18 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <!-- New Add rsc for omni  -->
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" revision="android-5.0" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />  
   <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" remote="omnirom" revision="android-5.0" groups="pdk,darwin,mips" -->
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" remote="omnirom" revision="android-5.0" groups="pdk,darwin,x86" -->
+   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
-  <!-- New Add rsc for omni  -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" revision="android-5.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="omnirom" revision="android-5.0" groups="pdk,linux,arm" -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="omnirom" revision="android-5.0" groups="pdk,linux,arm" -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />  
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
@@ -638,20 +596,10 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <!-- New Add rsc for rm  -->
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.0" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-5.0" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-12.0" />
+  <!-- New Add rsc for rm  -->  
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />  
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <!-- New Add rsc for omni  -->
-  <!--project path="system/vold" name="android_system_vold" remote="rm" revision="android-5.0" /-->
-  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-5.0" />
+  <!-- New Add rsc for omni  -->  
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -666,8 +614,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <!-- New Add rsc for rm  -->
-  <project path="vendor/omni" name="android_vendor_omni" remote="rm" revision="android-5.0" />
-  <!-- New Add rsc for github  -->
-
+ 
 </manifest>
