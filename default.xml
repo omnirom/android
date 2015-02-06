@@ -52,6 +52,7 @@
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
+  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-5.0" />
   <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-5.0" />
   <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-5.0" groups="pdk" />
