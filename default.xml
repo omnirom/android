@@ -34,7 +34,7 @@
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
 
-  <!--------------------------------device----------------------------------------------------------------->
+  <!-- ==================================================device========================================================== -->
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" revision="android-5.0" groups="pdk" />
   <!------------------------------------------------------------------------------------------------------->
