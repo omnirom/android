@@ -197,7 +197,6 @@
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-12.0" />
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" />
   
 
@@ -585,7 +584,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <!--project path="packages/apps/Stk" name="platform/packages/apps/Stk" /-->  
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />  
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />  
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" /> 
   <project path="packages/experimental" name="platform/packages/experimental" />  
