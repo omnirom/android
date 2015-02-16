@@ -69,7 +69,6 @@
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-5.0" />
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <!-- /==============("hardware")========================================================================/ -->
@@ -217,6 +216,7 @@
   <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" /-->
   <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
 
   <!-- /==============("packages")========================================================================/ -->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
