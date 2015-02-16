@@ -62,12 +62,14 @@
   <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/srec" name="android_external_srec" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="omnirom" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-5.0" />
   <!-- /==============("frameworks")========================================================================/ -->
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-5.0" />
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <!-- /==============("hardware")========================================================================/ -->
@@ -197,8 +199,7 @@
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" />
-  
+ 
 
   <!-- New Add rsc for rm  -->
   <!-- /==============("https://github.com/android-armv7a-belalang-tempur")========================================================================/ -->
@@ -482,8 +483,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />  
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
-  <!--project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="omnirom" groups="pdk" /-->
+  <!--project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" /-->
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />  
