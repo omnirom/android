@@ -70,6 +70,7 @@
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.0" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-5.0" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <!-- /==============("hardware")========================================================================/ -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-5.0" groups="pdk" />
@@ -199,6 +200,8 @@
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-12.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
+  
+  <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" /-->
  
 
   <!-- New Add rsc for rm  -->
@@ -212,12 +215,10 @@
   </project>
 
   <!-- /==============("frameworks")========================================================================/ -->
-  <!--project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" /-->
   <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
-  <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" /-->
   <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
+  <!--project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" /-->
 
   <!-- /==============("packages")========================================================================/ -->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
@@ -225,11 +226,9 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="rm" revision="android-5.0" />
   <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" /-->
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
-  <!--project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="rm" revision="android-5.0" /-->
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rm" revision="android-5.0" />
-  <!--project path="packages/services/Mms" name="android_packages_services_Mms" remote="rm" revision="android-5.0" /-->
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
 
   <!-- /==============("system")========================================================================/ -->
@@ -245,8 +244,6 @@
   <!-- /==============("hardware")========================================================================/ -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="rm" revision="android-5.0" />
   <!--project path="hardware/samsung_slsi/exynos4" name="android_hardware_samsung_slsi_exynos4" remote="rm" revision="android-5.0.2" groups="exynos4" /-->
-  <!--project path="hardware/ril" name="cm-android_hardware_ril" remote="rm" revision="android-5.0" groups="pdk" /-->
-  
 
   <!-- New Add rsc for AOSP  -->
   <!-- /==============("https://android.googlesource.com/")========================================================================/ -->
