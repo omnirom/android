@@ -62,7 +62,7 @@
   <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/srec" name="android_external_srec" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="omnirom" groups="pdk" />
+  <!--project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="omnirom" groups="pdk" /-->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-5.0" />
   <!-- /==============("frameworks")========================================================================/ -->
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
@@ -202,6 +202,7 @@
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
   <!-- fix Projet -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-12.0" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.0" groups="pdk" />
   <!--project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" /-->
   <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" /-->
   <!--project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" groups="pdk" /-->
