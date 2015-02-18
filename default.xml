@@ -73,8 +73,8 @@
   <!--project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-5.0" /-->
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <!-- /==============("hardware")========================================================================/ -->
-  <!--project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-5.0" groups="pdk" /-->
-  <!--project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-5.0" groups="broadcom_wlan" /-->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-5.0" groups="broadcom_wlan" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-5.0" />
@@ -89,7 +89,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-5.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-5.0" groups="omap4" />
-  <!--project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="omnirom" revision="android-5.0" /-->
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="omnirom" revision="android-5.0" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="omnirom" revision="android-5.0" />
 
   <!-- /==============("lib")========================================================================/ -->
@@ -202,10 +202,10 @@
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
   <!-- fix Projet -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-12.0" groups="pdk" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" />
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="cm-12.0" groups="broadcom_wlan" />
+  <!--project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" /-->
+  <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" --/>
+  <!--project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" groups="pdk" /-->
+  <!--project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="cm-12.0" groups="broadcom_wlan" /-->
  
   <!-- New Add rsc for rm  -->
   <!-- /==============("https://github.com/android-armv7a-belalang-tempur")========================================================================/ -->
@@ -221,7 +221,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
-  <!--project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" /-->
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
 
   <!-- /==============("packages")========================================================================/ -->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
