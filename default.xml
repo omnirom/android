@@ -31,7 +31,7 @@
   
   <!-- /==============("/https://github.com/omnirom")========================================================================/ -->
   <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
+  <!--project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" /-->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.0" groups="pdk"/>
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-5.0" groups="pdk-cw-fs" />
@@ -201,6 +201,7 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-12.0" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.0" />
   <!-- fix Projet -->
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-12.0" groups="pdk" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" />
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" groups="pdk" />
