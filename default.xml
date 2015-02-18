@@ -203,7 +203,7 @@
   <!-- fix Projet -->
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-12.0" groups="pdk" />
   <!--project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-12.0" /-->
-  <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" --/>
+  <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" /-->
   <!--project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" groups="pdk" /-->
   <!--project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="cm-12.0" groups="broadcom_wlan" /-->
  
