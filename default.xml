@@ -260,6 +260,7 @@
   <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" remote="github" revision="cm-12.0" />
 
   <!-- /==============("hardware")========================================================================/ -->
+  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" remote="github" revision="cm-12.0" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-12.0" />
   <!-- /==============("hardware")========================================================================/ -->
 
