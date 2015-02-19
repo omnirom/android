@@ -231,6 +231,8 @@
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="github" revision="cm-12.0" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="cm-12.0" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="github" revision="cm-12.0" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-12.0" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-12.0" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-12.0" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-12.0" />
   <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" remote="github" revision="cm-12.0" />
