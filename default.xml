@@ -276,7 +276,7 @@
   <project path="android" name="android" remote="rm" revision="android-5.0" />
 
   <!-- /==============("build")========================================================================/ -->
-  <project path="build" name="android_build" remote="rm" revision="android-5.0" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="rm" revision="android-5.0.2" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
