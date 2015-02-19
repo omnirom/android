@@ -35,8 +35,6 @@
 
   <!-- New Add rsc from omni  -->
   <!-- /==============("/https://github.com/omnirom")========================================================================/ -->
-  
-  <!-- /==============("/https://github.com/omnirom")========================================================================/ -->
   <project path="art" name="android_art" remote="omnirom" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" groups="pdk"/>
@@ -46,7 +44,6 @@
   <!-- /==============("device")========================================================================/ -->
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" groups="pdk" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" groups="pdk" />
-  <!-- /===================================================================================================/ -->
 
   <!-- /==============("external")========================================================================/ -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" groups="pdk" />
@@ -71,6 +68,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" groups="pdk" />
   <!--project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="android-5.0" remote="omnirom" groups="pdk" /-->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" />
+  
   <!-- /==============("frameworks")========================================================================/ -->
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" groups="pdk-cw-fs" />
@@ -79,6 +77,7 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" />
   <!--project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" /-->
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" groups="pdk-cw-fs" />
+  
   <!-- /==============("hardware")========================================================================/ -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" groups="broadcom_wlan" />
@@ -133,8 +132,8 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" />
   
   <!-- /==============("prebuilts")========================================================================/ -->
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" />
+  <!--project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.4.3" groups="pdk,darwin,arm" remote="omnirom" /-->
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" groups="pdk,linux,arm" remote="omnirom" /-->
   
 <!-- /==============("prebuilts")========================================================================/ -->
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
@@ -683,8 +682,6 @@
 
   <!-- /==============("PDK")========================================================================/ -->
   <project path="pdk" name="platform/pdk" groups="pdk" />
-
-  
 
   <!-- /==============("SDK")========================================================================/ -->
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
