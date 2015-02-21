@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="https://github.com/" 
            sync-c="true"
-           sync-j="8"/>
+           sync-j="8" />
            
   <remote name="Erc"
            fetch="https://github.com/ErcOne/" />
@@ -15,7 +15,7 @@
   <remote name="rm"
            fetch="https://github.com/android-armv7a-belalang-tempur/" 
            sync-c="true"
-           sync-j="8"/>    
+           sync-j="8" />    
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -26,7 +26,7 @@
            fetch="https://github.com/omnirom" 
            revision="refs/heads/android-5.0" 
            sync-c="true"
-           sync-j="8"/>
+           sync-j="8" />
 
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
