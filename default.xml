@@ -37,7 +37,8 @@
   <!-- /==============("/https://github.com/omnirom")========================================================================/ -->
   <project path="art" name="android_art" remote="omnirom" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" groups="pdk"/>
+  <project path="bootable/recovery" name="OptiPop/recovery" remote="github" revision="master" />
+  <!--project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" groups="pdk"/-->
   <project path="dalvik" name="android_dalvik" remote="omnirom" groups="pdk-cw-fs" />
   <project path="development" name="android_development" remote="omnirom" groups="pdk-cw-fs" />
 
@@ -47,15 +48,18 @@
 
   <!-- /==============("external")========================================================================/ -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" groups="pdk" />
-  <project path="external/busybox" name="android_external_busybox" remote="omnirom" />
+  <project path="external/busybox" name="OptiPop/busybox" remote="github" revision="master" />
+  <!--project path="external/busybox" name="android_external_busybox" remote="omnirom" /-->
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" />
-  <project path="external/clang" name="android_external_clang" remote="omnirom" groups="pdk" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" groups="pdk" />
+  <project path="external/clang" name="OptiPop/android_external_clang" remote="github" revision="master" />
+  <!--project path="external/clang" name="android_external_clang" remote="omnirom" groups="pdk" /-->
+  <!--project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" groups="pdk" /-->
+  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="github" revision="master" />
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" groups="pdk" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" remote="omnirom" groups="pdk" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" groups="pdk-cw-fs" />
+  <!--project path="external/jpeg" name="android_external_jpeg" remote="omnirom" groups="pdk-cw-fs" /-->
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" />
   <project path="external/libexif" name="android_external_libexif" remote="omnirom" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" />
@@ -73,14 +77,15 @@
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" remote="omnirom" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="OptiPop/frameworks_opt_telephony" remote="github" revision="master" />
+  <!--project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" groups="pdk" /-->
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" />
   <!--project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" /-->
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" groups="pdk-cw-fs" />
   
   <!-- /==============("hardware")========================================================================/ -->
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" groups="broadcom_wlan" />
+  <!--project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" groups="pdk" /-->
+  <!--project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" groups="broadcom_wlan" /-->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" groups="pdk" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" />
@@ -106,13 +111,18 @@
   <!--project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" /-->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" groups="pdk-cw-fs" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnirom" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" />
+  <project path="packages/apps/Contacts" name="OptiPop/packages_apps_Contacts" remote="github" revision="dark" />
+  <project path="packages/apps/ContactsCommon" name="OptiPop/packages_apps_ContactsCommon" remote="github" revision="dark" />
+  <!--project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" /-->
+  <!--project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnirom" /-->
+  <!--project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" /-->
+  <project path="packages/apps/DeskClock" name="OptiPop/packages_apps_DeskClock" remote="gh" revision="master" />
+  <project path="packages/apps/Dialer" name="OptiPop/packages_apps_Dialer" remote="gh" revision="dark" />
+  <!--project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" /-->
   <!--project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" /-->
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" />
+  <project path="packages/apps/InCallUI" name="OptiPop/packages_apps_InCallUI" remote="github" revision="dark" />
+  <!--project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" /-->
   <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" /-->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" />
@@ -127,8 +137,11 @@
   <!--project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" -->
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" groups="pdk-cw-fs" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" />
+  <!--project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" /-->
+  <project path="packages/providers/TelephonyProvider" name="OptiPop/packages_providers_TelephonyProvider" remote="github" revision="master" />
+  <!--project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" /-->
+  <project path="packages/services/Telecomm" name="OptiPop/packages_services_Telecomm" remote="github" revision="master" />
+  <project path="packages/services/Telephony" name="OptiPop/packages_services_Telephony" remote="github" revision="dark" />
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omnirom" />
   
   <!-- /==============("prebuilts")========================================================================/ -->
@@ -165,18 +178,18 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SaberMod/aarch64-linux-android-4.9" remote="github" revision="master" />
   <!--project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" /-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" /-->
   
      <!-- CUSTOM KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="Team-Validus/LINARO-OTTER" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="Team-Validus/linaro-arm-eabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="Team-Validus/linaro-arm-eabi-4.9" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="Team-Validus/linaro-arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="Team-Validus/LINARO-OTTER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Team-Validus/linaro-arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="Team-Validus/linaro-arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="Team-Validus/linaro-arm-eabi-4.10" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="Team-Validus/arm-eabi-4.10" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" remote="github" revision="L5" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" remote="github" revision="L5" /-->
 
   <!-- CUSTOM ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Team-Validus/arm-linux-androideabi-4.8" remote="github" revision="lp" />
@@ -199,12 +212,15 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
+  <project path="sdk" name="OptiPop/sdk" remote="github" revision="master" />
+  <!--project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" /-->
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   
   <!-- /==============("system")========================================================================/ -->
   <!--project path="system/core" name="android_system_core" remote="omnirom" groups="pdk" /-->
-  <project path="system/extras" name="android_system_extras" remote="omnirom" groups="pdk" />
+  <!--project path="system/extras" name="android_system_extras" remote="omnirom" groups="pdk" /-->
+  <project path="system/core" name="OptiPop/system_core" remote="github" revision="master" />
+  <project path="system/extras" name="OptiPop/system_extras" remote="github" revision="master" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" />
@@ -279,7 +295,7 @@
   <!--project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.0" /-->
   <!--project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-12.0" groups="pdk" /-->
   <!--project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="cm-12.0" groups="broadcom_wlan" /-->
- 
+  <project path="frameworks/opt/net/wifi" name="OptiPop/frameworks_opt_net_wifi" remote="github" revision="master" />
   <!-- New Add rsc for rm  -->
   <!-- /==============("https://github.com/android-armv7a-belalang-tempur")========================================================================/ -->
   <!-- /==============("android")========================================================================/ -->
@@ -294,13 +310,14 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="rm" revision="android-5.0" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rm" revision="android-5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="rm" revision="android-5.0" groups="pdk" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" />
+  <!--project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rm" revision="android-5.0" /-->
 
   <!-- /==============("packages")========================================================================/ -->
   <!--project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="rm" revision="android-5.0" groups="pdk-cw-fs" /-->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="rm" revision="android-5.0" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rm" revision="android-5.0" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="rm" revision="android-5.0" />
+  <project path="packages/apps/Gallery2" name="OptiPop/packages_apps_Gallery2" remote="github" revision="dark" />
+  <!--project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="rm" revision="android-5.0" /-->
   <!--project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rm" revision="android-5.0" /-->
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rm" revision="android-5.0" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="rm" revision="android-5.0" />
@@ -309,7 +326,7 @@
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
 
   <!-- /==============("system")========================================================================/ -->
-  <project path="system/core" name="android_system_core" remote="rm" revision="android-5.0" groups="pdk" />
+  <!--project path="system/core" name="android_system_core" remote="rm" revision="android-5.0" groups="pdk" /-->
   <!--project path="system/vold" name="android_system_vold" remote="rm" revision="android-5.0" /-->
 
   <!-- /==============("vendor")========================================================================/ -->
@@ -416,7 +433,8 @@
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="OptiPop/external_dnsmasq" remote="github" revision="master" />
+  <!--project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" /-->
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
@@ -451,7 +469,8 @@
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
-  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
+  <project path="external/iputils" name="OptiPop/external_iputils" remote="github" revision="master" />
+  <!--project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" /-->
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
@@ -595,12 +614,14 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />  
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
-  <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />   
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />  
+  <project path="frameworks/wilhelm" name="OptiPop/frameworks_wilhelm" remote="github" revision="master" />
+  <!--project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" /-->
 
   <!-- /==============("hardware")========================================================================/ -->
   <project path="hardware/akm" name="platform/hardware/akm" />  
-  <!--project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" /-->
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -652,7 +673,8 @@
   <!--project path="packages/apps/Music" name="platform/packages/apps/Music" /-->  
   <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->  
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />  
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="OptiPop/packages_apps_PhoneCommon" remote="github" revision="dark" /
+  <!--project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" /-->
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <!--roject path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" /-->   
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
@@ -675,7 +697,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />  
+  <!--project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" /-->  
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -696,7 +718,8 @@
   <!-- /==============("tools")========================================================================/ -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/base" name="OptiPop/tools_base" remote="github" revision="master" />
+  <!--project path="tools/base" name="platform/tools/base" groups="notdefault,tools" /-->
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
