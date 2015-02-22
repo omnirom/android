@@ -213,7 +213,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="sdk" name="OptiPop/sdk" remote="github" revision="master" />
-  <!--project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" /-->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   
   <!-- /==============("system")========================================================================/ -->
@@ -709,7 +709,7 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
 
   <!-- /==============("SDK")========================================================================/ -->
-  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
+  <!--project path="sdk" name="platform/sdk" groups="pdk-cw-fs" /-->
   
   <!-- /==============("system")========================================================================/ -->
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />  
