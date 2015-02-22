@@ -56,7 +56,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" groups="pdk" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" remote="omnirom" groups="pdk" />
-  <!--project path="external/jpeg" name="android_external_jpeg" remote="omnirom" groups="pdk-cw-fs" /-->
+  <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" groups="pdk-cw-fs" />
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" />
   <project path="external/libexif" name="android_external_libexif" remote="omnirom" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" />
