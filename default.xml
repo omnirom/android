@@ -673,7 +673,7 @@
   <!--project path="packages/apps/Music" name="platform/packages/apps/Music" /-->  
   <!--project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" /-->  
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />  
-  <project path="packages/apps/PhoneCommon" name="OptiPop/packages_apps_PhoneCommon" remote="github" revision="dark" /
+  <project path="packages/apps/PhoneCommon" name="OptiPop/packages_apps_PhoneCommon" remote="github" revision="dark" />
   <!--project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" /-->
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <!--roject path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" /-->   
