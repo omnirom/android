@@ -48,13 +48,10 @@
 
   <!-- /==============("external")========================================================================/ -->
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" groups="pdk" />
-  <project path="external/busybox" name="OptiPop/busybox" remote="github" revision="master" />
-  <!--project path="external/busybox" name="android_external_busybox" remote="omnirom" /-->
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" />
-  <project path="external/clang" name="OptiPop/android_external_clang" remote="github" revision="master" />
-  <!--project path="external/clang" name="android_external_clang" remote="omnirom" groups="pdk" /-->
-  <!--project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" groups="pdk" /-->
-  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="github" revision="master" />
+  <project path="external/clang" name="android_external_clang" remote="omnirom" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" groups="pdk" />
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" groups="pdk" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" groups="pdk" />
