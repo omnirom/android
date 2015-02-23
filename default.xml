@@ -208,15 +208,14 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
-  <project path="sdk" name="OptiPop/sdk" remote="github" revision="master" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   
   <!-- /==============("system")========================================================================/ -->
   <!--project path="system/core" name="android_system_core" remote="omnirom" groups="pdk" /-->
-  <!--project path="system/extras" name="android_system_extras" remote="omnirom" groups="pdk" /-->
+  <project path="system/extras" name="android_system_extras" remote="omnirom" groups="pdk" />
   <project path="system/core" name="OptiPop/system_core" remote="github" revision="master" />
-  <project path="system/extras" name="OptiPop/system_extras" remote="github" revision="master" />
+  <!--project path="system/extras" name="OptiPop/system_extras" remote="github" revision="master" /-->
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" />
@@ -464,8 +463,7 @@
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
-  <project path="external/iputils" name="OptiPop/external_iputils" remote="github" revision="master" />
-  <!--project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" /-->
+  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
@@ -704,7 +702,7 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
 
   <!-- /==============("SDK")========================================================================/ -->
-  <!--project path="sdk" name="platform/sdk" groups="pdk-cw-fs" /-->
+  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   
   <!-- /==============("system")========================================================================/ -->
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />  
@@ -713,8 +711,7 @@
   <!-- /==============("tools")========================================================================/ -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="OptiPop/tools_base" remote="github" revision="master" />
-  <!--project path="tools/base" name="platform/tools/base" groups="notdefault,tools" /-->
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
