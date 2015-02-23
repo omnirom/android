@@ -37,8 +37,7 @@
   <!-- /==============("/https://github.com/omnirom")========================================================================/ -->
   <project path="art" name="android_art" remote="omnirom" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" groups="pdk" />
-  <project path="bootable/recovery" name="OptiPop/recovery" remote="github" revision="master" />
-  <!--project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" groups="pdk"/-->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" groups="pdk"/>
   <project path="dalvik" name="android_dalvik" remote="omnirom" groups="pdk-cw-fs" />
   <project path="development" name="android_development" remote="omnirom" groups="pdk-cw-fs" />
 
@@ -214,8 +213,6 @@
   <!-- /==============("system")========================================================================/ -->
   <!--project path="system/core" name="android_system_core" remote="omnirom" groups="pdk" /-->
   <project path="system/extras" name="android_system_extras" remote="omnirom" groups="pdk" />
-  <project path="system/core" name="OptiPop/system_core" remote="github" revision="master" />
-  <!--project path="system/extras" name="OptiPop/system_extras" remote="github" revision="master" /-->
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" />
@@ -321,7 +318,7 @@
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="rm" revision="android-5.0" />
 
   <!-- /==============("system")========================================================================/ -->
-  <!--project path="system/core" name="android_system_core" remote="rm" revision="android-5.0" groups="pdk" /-->
+  <project path="system/core" name="android_system_core" remote="rm" revision="android-5.0" groups="pdk" />
   <!--project path="system/vold" name="android_system_vold" remote="rm" revision="android-5.0" /-->
 
   <!-- /==============("vendor")========================================================================/ -->
@@ -608,8 +605,8 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />  
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />  
-  <project path="frameworks/wilhelm" name="OptiPop/frameworks_wilhelm" remote="github" revision="master" />
-  <!--project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" /-->
+  <!--project path="frameworks/wilhelm" name="OptiPop/frameworks_wilhelm" remote="github" revision="master" /-->
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
 
   <!-- /==============("hardware")========================================================================/ -->
   <project path="hardware/akm" name="platform/hardware/akm" />  
