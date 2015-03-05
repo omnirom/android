@@ -15,16 +15,22 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+  <remote  name="ilwt"
+           fetch="ssh://git@bitbucket.org/ilwt/"
+           review="gerrit.ilwt.org" />
+
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
+  <!-- ILWT repos -->
+  <project path="android" name="tlrp" remote="ilwt" revision="ilwt-5.0" />
+
   <project path="build" name="android_build" remote="omnirom" revision="android-5.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-5.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
