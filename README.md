@@ -7,7 +7,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-5.1
 
 Register at gerrit.omnirom.org and use the username that you registered there in the above command
 
@@ -27,7 +27,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the OMNIROM trees, use a command like this:
 
-    repo init -u git://github.com/omnirom/android.git -b <branch>
+    repo init -u git://github.com/omnirom/android.git -b android-5.1
 
 Then to sync up:
 
