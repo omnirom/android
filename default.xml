@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-5.1.0_r5"
+  <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -236,7 +236,7 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
-  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
@@ -385,6 +385,7 @@
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-5.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="omnirom" revision="android-5.1" />
