@@ -209,7 +209,7 @@
   <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-5.1" groups="pdk" />
   <!--project path="external/lohit-fonts" name="platform/external/lohit-fonts" /> -->
   <!--project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" /> -->
-  <!--project path="external/lzma" name="platform/external/lzma" groups="pdk" /> -->
+  <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <!--project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" /> -->
   <!--project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" /> -->
   <!--project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs" /> -->
@@ -348,7 +348,7 @@
   <!--project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-5.1" /> -->
   <!--project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-5.1" /> -->
   <!--project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-5.1" /> -->
-  <!--project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-5.1" groups="qcom" /> -->
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-5.1" groups="qcom" />
   <!--project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-5.1" /> -->
   <!--project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="omnirom" revision="android-5.1" /> -->
   <!--project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" /> -->
@@ -483,8 +483,8 @@
   <!--project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" /> -->
   <!--project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" groups="pdk,linux,mips" /> -->
   <!--project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips" /> -->
-  <!--project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" /> -->
-  <!--project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" /> -->
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
   <!--project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" /> -->
   <!--project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" /> -->
   <!--project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" /> -->
