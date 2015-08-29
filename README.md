@@ -15,7 +15,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/lj50036/platform_manifest_twrp.git -b twrp-5.1
+    repo init -u git://github.com/lj50036/platform_manifest_twrp_omni.git -b twrp-5.1
 
 Then to sync up:
 
