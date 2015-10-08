@@ -200,7 +200,7 @@
   <!--project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" /> -->
   <!--project path="external/libvpx" name="platform/external/libvpx" groups="pdk" /> -->
   <!--project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" /> -->
-  <!--project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" /> -->
+  <!--project path="external/libxml2" name="android_external_libxml2" remote="omnirom" revision="android-5.1" /> -->
   <!--project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" /> -->
   <!--project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" /> -->
   <!--project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" /> -->
