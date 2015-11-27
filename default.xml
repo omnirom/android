@@ -36,24 +36,24 @@
   <!--project path="developers/docs" name="platform/developers/docs" /> -->
   <!--project path="developers/samples/android" name="platform/developers/samples/android" /> -->
   <!--project path="development" name="android_development" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" /> -->
-  <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
-  <project path="device/generic/qemu" name="device/generic/qemu" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
+  <!--project path="device/common" name="device/common" groups="pdk-cw-fs" /> -->
+  <!--project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" /> -->
+  <!--project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" /> -->
+  <!--project path="device/generic/common" name="device/generic/common" groups="pdk" /> -->
+  <!--project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" /> -->
+  <!--project path="device/generic/mips" name="device/generic/mips" groups="pdk" /> -->
+  <!--project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" /> -->
+  <!--project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-5.1" groups="pdk" /> -->
+  <!--project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />-->
+  <!--project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" /> -->
+  <!--project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" /> -->
+  <!--project path="device/generic/qemu" name="device/generic/qemu" /> -->
+  <!--project path="device/generic/x86" name="device/generic/x86" groups="pdk" /> -->
+  <!--project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" /> -->
+  <!--project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" /> -->
+  <!--project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" /> -->
+  <!--project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <!--project path="device/sample" name="device/sample" groups="pdk" /> -->
   <!--project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" /> -->
   <!--project path="external/aac" name="platform/external/aac" groups="pdk" /> -->
   <!--project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" /> -->
