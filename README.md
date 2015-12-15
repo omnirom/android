@@ -19,6 +19,28 @@ use git commit --amend. Gerrit will recognize it as a new patchset.
 To view the status of your and others patches, visit [OMNI ROM Code Review](https://gerrit.omnirom.org)
 
 
+## Maintaining Authorship ##
+----------------------
+Mainting authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
+from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
+work you're seeking to include. Doing so will ensure that credit is given where it is deserved, and the [prinicples of open source](http://opensource.org/docs/osd)
+are upheld.
+
+If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://gerrit.omnirom.org). 
+This is a very easy task to perform, and is usually done after you commit a patch/fix locally. This is accomplished
+after you type in `git commit -a` , type in the commit message and save. You would then do the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all of the author's information
+
+```bash
+git commit --amend --author "Spencer McGillicuddy <spencer.the.bestest@gmail.com>"
+```
+
+
 Getting Started
 ---------------
 
@@ -45,4 +67,3 @@ Our official IRC Channels are hosted on Freenode:
 [#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
 
 [#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
-
