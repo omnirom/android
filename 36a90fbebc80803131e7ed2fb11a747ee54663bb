@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8f5b13e_a53cb8de",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2015-12-15T16:51:06Z",
+      "side": 1,
+      "message": "Might want to add something about.\n\"Your contribution will still be recognized as you will be forever recorded as the comitter\"\nOr something making more sense than that - you get the idea.",
+      "revId": "36a90fbebc80803131e7ed2fb11a747ee54663bb",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
