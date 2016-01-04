@@ -126,7 +126,7 @@
   <!--project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" /> -->
   <!--project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" /> -->
   <!--project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" /> -->
-  <!--project path="external/elfutils" name="platform/external/elfutils" groups="pdk" /> -->
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <!--project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" /> -->
   <!--project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" /> -->
   <!--project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-5.1" /> -->
