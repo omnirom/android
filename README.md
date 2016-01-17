@@ -42,7 +42,7 @@ If you need more information or a more detailed guide, click [here to see our wi
 
 Our official IRC Channels are hosted on Freenode:
 
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
+[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom)
 
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
+[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni)
 
