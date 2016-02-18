@@ -1,3 +1,17 @@
+## Officially Supported Devices##
+---------------------------------
+
+| Device   |  Code Name  | Nightly Status|
+| --------|-----------|:--------------:|
+| Nexus 4 | mako | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=mako/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=mako)|
+| Nexus 5X | bullhead | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=bullhead/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=bullhead)|
+| Nexus 6  | shamu  | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=shamu/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/)device=shamu|
+| Nexus 7 (2013) | flo | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=flo/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=flo)|
+| Nexus 10 | manta | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=manta/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=manta)|
+| Find 7/Find 7a | find7 | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=find7/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=find7)|
+| Oneplus One | find7op | [![Build Status](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=find7op/badge/icon)](http://jenkins.omnirom.org:8080/job/Omni%206.0%20Nightlies/device=find7op)|
+
+
 ## Submitting Patches ##
 ------------------
 Our ROM is open source, and patches are always welcome!
