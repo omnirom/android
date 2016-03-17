@@ -264,6 +264,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-6.0" groups="pdk" />
+  <project path="frameworks/av-caf" name="android_frameworks_av" remote="omnirom" revision="android-6.0-caf" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -274,6 +275,7 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-6.0" groups="pdk" />
+  <project path="frameworks/native-caf" name="android_frameworks_native" remote="omnirom" revision="android-6.0-caf" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -337,7 +339,10 @@
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-6.0" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-6.0" groups="qcom_wlan" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="omnirom" revision="android-6.0" groups="samsung" />
+  <project path="hardware/samsung/slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="omnirom" revision="android-6.0" groups="samsung" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-6.0" groups="pdk" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" remote="omnirom" revision="android-6.0-caf" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="libcore" name="android_libcore" remote="omnirom" revision="android-6.0" groups="pdk" />
