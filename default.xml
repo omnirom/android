@@ -65,7 +65,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.4" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="omnirom" revision="android-4.4" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-4.4" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
