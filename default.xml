@@ -11,6 +11,9 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote  name="caf"
+           fetch="git://us.codeaurora.org/cgit/quic/la" />
+
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
