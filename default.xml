@@ -11,7 +11,8 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path=".org/build" name="platform/build" groups="pdk" >
+  <project path="build" name="Schischu/aosp_android_build" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -22,7 +23,7 @@
 
   <project path=".org/bionic" name="platform/bionic" groups="pdk" />
   <project path=".org/decatf_bionic" name="Decatf/platform_bionic" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="bionic" name="Decatf/platform_bionic" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="bionic" name="Schischu/aosp_android_bionic" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
 
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
 
@@ -292,7 +293,7 @@
 
   <project path=".org/frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path=".org/frameworks/decatf_native" name="Decatf/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="frameworks/native" name="Decatf/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="frameworks/native" name="Schischu/aosp_android_frameworks_native" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
 
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
@@ -463,7 +464,7 @@
 
   <project path=".org/system/core" name="platform/system/core" groups="pdk" />
   <project path=".org/system/decatf_core" name="Decatf/platform_system_core" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="system/core" name="Decatf/platform_system_core" groups="pdk" remote="github" revision="aosp-6.0" />
+  <project path="system/core" name="Schischu/aosp_android_system_core" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
 
   <project path=".org/system/extras" name="platform/system/extras" groups="pdk" />
   <!--project path=".org/system/decatf_extras" name="Decatf/android_system_extras" groups="pdk" remote="github" revision="aosp-6.0" /-->
@@ -472,7 +473,10 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+
+  <project path=".org/system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="Schischu/aosp_android_system_netd" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
+
   <project path="system/security" name="platform/system/security" groups="pdk" />
 
   <project path=".org/system/vold" name="platform/system/vold" groups="pdk" />
