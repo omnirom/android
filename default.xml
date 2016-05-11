@@ -311,7 +311,7 @@
 
   <project path=".org/frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path=".org/frameworks/opt/net/decatf_wifi" name="Decatf/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="Schischu/aosp_android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
 
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
@@ -397,7 +397,9 @@
 
   <!-- project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" /-->
 
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <project path=".org/packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="Schischu/aosp_android_packages_apps_settings" groups="pdk-fs" remote="github" revision="android-6.0.1_r17_stingray" />
+
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -481,6 +483,6 @@
 
   <project path=".org/system/vold" name="platform/system/vold" groups="pdk" />
   <project path=".org/system/decatf_vold" name="Decatf/android_system_vold" groups="pdk" remote="github" revision="aosp-6.0" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/vold" name="Schischu/aosp_android_system_vold" groups="pdk" remote="github" revision="android-6.0.1_r17_stingray" />
 
 </manifest>
