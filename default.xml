@@ -29,7 +29,7 @@
   <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods" remote="github" revision="master" />
   <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6"name="sostk/arm" remote="github" revision="jellybean-stable" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="sostk/arm" remote="github" revision="jellybean-stable" />
 
   <project path="android" name="android" remote="omnirom" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
