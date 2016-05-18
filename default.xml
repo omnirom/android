@@ -19,7 +19,7 @@
            remote="aosp"
            sync-c="true"
            sync-j="4" />
-
+  <project path="build" name="android_build" remote="omnirom" revision="android-5.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -28,7 +28,7 @@
   <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods" remote="github" revision="master" />
   <project path="vendor/samsung/kyleproxx" name="sostk/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="kernel/samsung/kyleproxx" name="Sandpox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
-  <project path="build" name="sostk/android_build" remote="github" revision="android-5.1" />
+
   <project path="android" name="android" remote="omnirom" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
