@@ -28,6 +28,7 @@
   <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods" remote="github" revision="master" />
   <project path="vendor/samsung/kyleproxx" name="sostk/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="kernel/samsung/kyleproxx" name="Sandpox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
 
   <project path="android" name="android" remote="omnirom" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
