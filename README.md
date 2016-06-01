@@ -41,8 +41,8 @@ let me fix it because I was found out!" message.
 ## Getting Started ##
 ---------------
 
-To get started with OMNI sources to build TWRP, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
+To get started with OMNI ROM, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
