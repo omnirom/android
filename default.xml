@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-5.1.1_r28"
+  <default revision="refs/tags/android-5.1.1_r37"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -290,7 +290,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="frameworks/av" name="sostk/android_frameworks_av" remote="github" revision="cm-12.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -300,7 +300,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="frameworks/native" name="sostk/android_frameworks_native" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
