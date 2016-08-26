@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
+  <project path="build" name="android_build" remote="omnirom" revision="android-7.0" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="art" name="android_art" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="development" name="android_development" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-7.0" groups="pdk" />
+
+  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-7.0" />
+  <project path="external/libpng" name="android_external_libpng" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-7.0" groups="pdk,qcom_msm8x26" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-7.0" groups="pdk" />
+
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-7.0" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="omnirom" revision="android-7.0" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-7.0" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-7.0" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="omnirom" revision="android-7.0" />
+
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-7.0" groups="broadcom_wlan" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-7.0" groups="invensense" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-7.0" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-7.0" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-7.0" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-7.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-7.0" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-7.0" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-7.0" groups="qcom_wlan" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-7.0" groups="pdk" />
+
+  <project path="libcore" name="android_libcore" remote="omnirom" revision="android-7.0" groups="pdk" />
+
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnirom" revision="android-7.0" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-7.0" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-7.0" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-7.0" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-7.0" />
+
+  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-7.0" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-7.0" />
+  <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-7.0" />
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="omni-aosp.xml" />
+
+  <!-- OmniROM Projects -->
+  <project path="android" name="android" remote="omnirom" revision="android-7.0" />
+
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs"/>
+
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.0" />
+  <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-7.0" />
+  <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-7.0" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-7.0"/>
+
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-7.0" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-7.0" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-7.0" />
+
+  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-7.0" />
+
+</manifest>
