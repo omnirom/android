@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="build" name="android_build" remote="omnirom" revision="android-7.0" groups="pdk,tradefed" >
+
+</manifest>
