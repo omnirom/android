@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="build" name="platform/build" groups="pdk,tradefed" >
+
+  <remove-project path="art" name="platform/art" groups="pdk" />
+  <remove-project path="bionic" name="platform/bionic" groups="pdk" />
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <remove-project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+
+  <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
+  <remove-project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
+  <remove-project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
+  <remove-project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" />
+  <remove-project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
+  <remove-project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
+  <remove-project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
+  <remove-project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
+  <remove-project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
+  <remove-project path="device/intel/edison" name="device/intel/edison" groups="device" />
+  <remove-project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
+  <remove-project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
+  <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
+  <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
+  <remove-project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
+  <remove-project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+
+  <remove-project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <remove-project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <remove-project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <remove-project path="external/jhead" name="platform/external/jhead" groups="pdk" />
+  <remove-project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <remove-project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <remove-project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <remove-project path="external/lz4" name="platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <remove-project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
+  <remove-project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
+  <remove-project path="external/toybox" name="platform/external/toybox" groups="pdk" />
+
+  <remove-project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <remove-project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <remove-project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <remove-project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
+
+  <remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <remove-project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
+  <remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
+  <remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
+  <remove-project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
+  <remove-project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
+  <remove-project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
+  <remove-project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
+  <remove-project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
+  <remove-project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
+  <remove-project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
+  <remove-project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
+  <remove-project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
+  <remove-project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+  <remove-project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
+  <remove-project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
+  <remove-project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+  <remove-project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
+  <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
+  <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
+  <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <remove-project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+
+  <remove-project path="libcore" name="platform/libcore" groups="pdk" />
+
+  <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
+  <remove-project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
+  <remove-project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
+  <remove-project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
+  <remove-project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
+  <remove-project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
+  <remove-project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
+  <remove-project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
+  <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
+  <remove-project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
+  <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
+  <remove-project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
+  <remove-project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
+  <remove-project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <remove-project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <remove-project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
+  <remove-project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
+
+  <remove-project path="system/core" name="platform/system/core" groups="pdk" />
+  <remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <remove-project path="system/media" name="platform/system/media" groups="pdk" />
+  <remove-project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <remove-project path="system/vold" name="platform/system/vold" groups="pdk" />
+
+</manifest>
