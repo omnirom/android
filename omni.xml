@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
+  <!-- FIRST: Remove unused/forked AOSP/CAF Projects -->
+  <include name="omni-remove.xml" />
+
+  <!-- FORK -->
+  <!-- Include AOSP -->
+  <include name="omni-aosp.xml" />
+
+  <!-- Include CAF -->
+  <include name="omni-caf.xml" />
+
+  <!-- OmniROM Projects -->
+  <project path="android" name="android" remote="omnirom" revision="android-7.0" />
+
+</manifest>

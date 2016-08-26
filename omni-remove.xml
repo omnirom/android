@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project path="build" name="platform/build" groups="pdk,tradefed" >
+
+  <remove-project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
+  <remove-project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
+  <remove-project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" />
+  <remove-project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
+  <remove-project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
+  <remove-project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
+  <remove-project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
+  <remove-project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
+  <remove-project path="device/intel/edison" name="device/intel/edison" groups="device" />
+  <remove-project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
+  <remove-project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
+  <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
+  <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
+  <remove-project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
+  <remove-project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+
+  <remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <remove-project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
+
+  <remove-project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
+
+</manifest>
