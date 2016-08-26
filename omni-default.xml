@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="omni-aosp.xml" />
+
+  <!-- OmniROM Projects -->
+  <project path="android" name="android" remote="omnirom" revision="android-7.0" />
+
+  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-7.0" />
+
+</manifest>
