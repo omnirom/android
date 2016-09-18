@@ -19,9 +19,11 @@
   <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-7.0" groups="pdk" />
 
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/doclava" name="android_external_doclava" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-7.0" groups="pdk" />
+  <project path="external/guava" name="android_external_guava" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-7.0" />
