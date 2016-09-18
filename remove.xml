@@ -27,6 +27,8 @@
   <remove-project name="device/moto/shamu-kernel" />
 
   <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/doclava" />
+  <remove-project name="platform/external/guava" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/flac" />
