@@ -85,7 +85,7 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/doclava" name="android_external_doclava" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
@@ -120,7 +120,7 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/guava" name="android_external_guava" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
