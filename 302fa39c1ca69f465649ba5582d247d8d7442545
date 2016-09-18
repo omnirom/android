@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "18107d3d_5dda6f4f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1001536
+      },
+      "writtenOn": "2016-09-18T22:07:47Z",
+      "side": 1,
+      "message": "Probably not unintended and unrelated.\nNot rebased local tree ?",
+      "revId": "302fa39c1ca69f465649ba5582d247d8d7442545",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "18107d3d_3ddfbb3f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 1001536
+      },
+      "writtenOn": "2016-09-18T22:07:47Z",
+      "side": 1,
+      "message": "Same.",
+      "revId": "302fa39c1ca69f465649ba5582d247d8d7442545",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
