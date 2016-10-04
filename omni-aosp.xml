@@ -16,7 +16,6 @@
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-7.0" groups="pdk" />
 
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.0" groups="pdk" />
   <project path="external/doclava" name="android_external_doclava" remote="omnirom" revision="android-7.0" groups="pdk" />
