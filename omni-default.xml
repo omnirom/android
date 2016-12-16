@@ -18,7 +18,6 @@
 
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-7.1" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-7.1" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-7.1" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-7.1" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-7.1" />
   <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omnirom" revision="android-7.1" />
