@@ -548,5 +548,6 @@
 
   <!-- OmniROM -->
   <include name="omni-default.xml" />
+  <include name="omni-default.xml" />
 
 </manifest>
