@@ -21,7 +21,7 @@ To view the status of your and others patches, visit [OmniROM Code Review](https
 
 ## Maintaining Authorship ##
 ----------------------
-Mainting authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
+Maintaining authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
 from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
 work you are seeking to include. Doing so will ensure that credit is given where it is deserved, and the [prinicples of open source](http://opensource.org/docs/osd)
 are upheld. Your contribution to the project will still be recognized as you will forever be listed as the committer.
