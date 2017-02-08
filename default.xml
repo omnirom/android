@@ -32,7 +32,7 @@
   <!--project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> -->
   <!--project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" /> -->
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs"/>
   <!--project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" /> -->
   <!--project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" /> -->
   <!--project path="developers/build" name="platform/developers/build" /> -->
