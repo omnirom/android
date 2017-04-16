@@ -12,26 +12,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="art" name="android_art" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
 
-  <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/doclava" name="android_external_doclava" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/flac" name="android_external_flac" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/guava" name="android_external_guava" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-7.1" />
-  <project path="external/libpng" name="android_external_libpng" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/libxml2" name="android_external_libxml2" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs,libxml2" />
-  <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/skia" name="android_external_skia" remote="omnirom" revision="android-7.1" groups="pdk,qcom_msm8x26" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/svox" name="android_external_svox" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs"/>
