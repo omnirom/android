@@ -14,7 +14,6 @@
 
   <project path="art" name="android_art" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
 
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.1" groups="pdk" />
