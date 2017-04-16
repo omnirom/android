@@ -3,10 +3,8 @@
 
   <remove-project name="platform/build" />
 
-  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/dalvik" />
   <remove-project name="platform/development" />
 
   <remove-project name="device/generic/mini-emulator-arm64" />
@@ -41,21 +39,10 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
 
-  <remove-project name="platform/external/clang" />
-  <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/external/flac" />
-  <remove-project name="platform/external/guava" />
-  <remove-project name="platform/external/jhead" />
-  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libnfc-nci" />
-  <remove-project name="platform/external/libpng" />
-  <remove-project name="platform/external/libxml2" />
-  <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/lz4" />
-  <remove-project name="platform/external/skia" />
-  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/svox"/>
@@ -71,7 +58,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/frameworks/support" />
-  <remove-project name="platform/frameworks/webview" />
   <remove-project name="platform/frameworks/wilhelm" />
 
   <remove-project name="platform/hardware/broadcom/libbt" />
