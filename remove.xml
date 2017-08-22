@@ -68,4 +68,13 @@
 
   <remove-project name="kernel/tests" />
 
+  <remove-project name="platform/test/vts" />
+  <remove-project name="platform/test/vts-testcase/fuzz" />
+  <remove-project name="platform/test/vts-testcase/hal" />
+  <remove-project name="platform/test/vts-testcase/hal-trace" />
+  <remove-project name="platform/test/vts-testcase/kernel" />
+  <remove-project name="platform/test/vts-testcase/performance" />
+  <remove-project name="platform/test/vts-testcase/security" />
+  <remove-project name="platform/test/vts-testcase/vndk" />
+
 </manifest>
