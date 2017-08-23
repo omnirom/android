@@ -17,5 +17,5 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
+  <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-8.0" />
 </manifest>
