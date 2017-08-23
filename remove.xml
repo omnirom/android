@@ -69,4 +69,13 @@
 
   <remove-project name="kernel/tests" />
 
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/Settings" />
+
 </manifest>
