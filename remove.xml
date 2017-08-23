@@ -4,7 +4,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
-  <remove-project name="platform/developers/build" />
+  <!--<remove-project name="platform/developers/build" />
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
 
@@ -69,6 +69,6 @@
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
 
-  <remove-project name="kernel/tests" />
+  <remove-project name="kernel/tests" />-->
 
 </manifest>
