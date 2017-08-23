@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="platform/build" />
-
   <remove-project name="platform/developers/build" />
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
@@ -10,6 +8,8 @@
   <remove-project name="platform/development" />
 
   <remove-project name="platform/docs/source.android.com" />
+
+  <remove-project name="platform/platform_testing" />
 
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
@@ -51,6 +51,18 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <remove-project name="kernel/tests" />
+
+  <remove-project name="platform/build" />
+
+  <remove-project name="platform/developers/build" />
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/samples/android" />
+
+  <remove-project name="platform/development" />
+
+  <remove-project name="platform/docs/source.android.com" />
+
   <remove-project name="platform/frameworks/opt/emoji" />
 
   <remove-project name="platform/hardware/intel/audio_media" />
@@ -68,6 +80,15 @@
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
 
-  <remove-project name="kernel/tests" />
+  <remove-project name="platform/packages/inputmethods/OpenWnn" />
+
+  <remove-project name="platform/test/vts" />
+  <remove-project name="platform/test/vts-testcase/fuzz" />
+  <remove-project name="platform/test/vts-testcase/hal" />
+  <remove-project name="platform/test/vts-testcase/hal-trace" />
+  <remove-project name="platform/test/vts-testcase/kernel" />
+  <remove-project name="platform/test/vts-testcase/performance" />
+  <remove-project name="platform/test/vts-testcase/security" />
+  <remove-project name="platform/test/vts-testcase/vndk" />
 
 </manifest>
