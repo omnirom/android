@@ -7,6 +7,9 @@
   <!-- Include forked AOSP -->
   <include name="omni-aosp.xml" />
 
+  <!-- Include forked CAF -->
+  <include name="omni-caf.xml" />
+
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-8.0" />
 
