@@ -50,7 +50,9 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/opt/emoji" />
+  <remove-project name="platform/frameworks/support" />
 
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
