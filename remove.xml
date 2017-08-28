@@ -84,6 +84,8 @@
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Settings" />
 
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
