@@ -51,6 +51,7 @@
   <remove-project name="device/sample" />
 
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/emoji" />
 
   <remove-project name="platform/hardware/intel/audio_media" />
@@ -67,6 +68,7 @@
   <remove-project name="platform/hardware/intel/img/psb_headers" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
