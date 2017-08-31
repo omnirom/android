@@ -88,6 +88,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
