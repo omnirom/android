@@ -8,6 +8,8 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
+  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.0" groups="pdk" />
+
   <project path="build/make" name="android_build" remote="omnirom" revision="android-8.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
