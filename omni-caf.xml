@@ -8,5 +8,5 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="omnirom" revision="android-7.1" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="omnirom" revision="android-8.0" />
 </manifest>
