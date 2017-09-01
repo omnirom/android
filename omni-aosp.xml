@@ -23,6 +23,7 @@
   </project>
 
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.0" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.0" />
 
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-8.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-8.0" />

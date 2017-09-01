@@ -52,6 +52,7 @@
 
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/opt/emoji" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
