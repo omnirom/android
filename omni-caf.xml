@@ -8,5 +8,6 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-8.0" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="omnirom" revision="android-8.0" />
 </manifest>
