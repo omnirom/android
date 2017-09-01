@@ -31,8 +31,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.0" />
 
-  <project name="android_hardware_invensense" path="hardware/invensense" remote="omnirom" revision="android-8.0" />
-
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-8.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-8.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-8.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-8.0" />
