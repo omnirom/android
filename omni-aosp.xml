@@ -26,6 +26,8 @@
 
   <project path="development" name="android_development" remote="omnirom" revision="android-8.0" groups="pdk-cw-fs,pdk-fs" />
 
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-8.0" />
+  
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.0" />
