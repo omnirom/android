@@ -55,6 +55,7 @@
 
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/tinycompress" />
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
