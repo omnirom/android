@@ -41,6 +41,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-8.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-8.0" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-8.0" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-8.0" />
 
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-8.0" />
