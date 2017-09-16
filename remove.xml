@@ -107,7 +107,6 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
