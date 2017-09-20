@@ -29,6 +29,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-8.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-8.0" />
   <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-8.0" />
+  <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-8.0" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.0" />
@@ -56,6 +57,7 @@
 
   <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-8.0" />
   <project path="system/core" name="android_system_core" remote="omnirom" revision="android-8.0" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-8.0" />
   <project path="system/media" name="android_system_media" remote="omnirom" revision="android-8.0" />
   <project path="system/netd" name="android_system_netd" remote="omnirom" revision="android-8.0" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-8.0" />
