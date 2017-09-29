@@ -34,7 +34,6 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="external/svox" name="android_external_svox" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs"/>
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs" />

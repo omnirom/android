@@ -58,7 +58,6 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
-  <remove-project name="platform/external/svox"/>
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
