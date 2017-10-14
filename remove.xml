@@ -42,6 +42,7 @@
   <remove-project name="device/moto/shamu-kernel" />
 
   <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
@@ -49,6 +50,7 @@
   <remove-project name="platform/external/guava" />
   <remove-project name="platform/external/jhead" />
   <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libxml2" />
