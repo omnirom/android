@@ -38,6 +38,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="omnirom" revision="android-7.1" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="omnirom" revision="android-7.1" groups="pdk" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs" />
