@@ -13,6 +13,8 @@
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-8.0" />
 
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.0" groups="pdk-cw-fs"/>
+
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.0" />
 
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-8.0" />
