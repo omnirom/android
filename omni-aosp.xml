@@ -57,6 +57,8 @@
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-8.0" />
 
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-8.0" />
+
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-8.0" />
 
   <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-8.0" />
