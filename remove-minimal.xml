@@ -23,7 +23,6 @@
     <remove-project name="platform/external/autotest" />
     <remove-project name="platform/external/blktrace" />
     <remove-project name="platform/external/bsdiff" />
-    <remove-project name="platform/external/bzip2" />
     <remove-project name="platform/external/c-ares" />
     <remove-project name="platform/external/caliper" />
     <remove-project name="platform/external/cblas" />
@@ -241,7 +240,6 @@
     <remove-project name="platform/hardware/broadcom/libbt" />
     <remove-project name="platform/hardware/broadcom/wlan" />
     <remove-project name="platform/hardware/google/apf" />
-    <remove-project name="platform/hardware/libhardware_legacy" />
     <remove-project name="platform/hardware/marvell/bt" />
     <remove-project name="platform/hardware/qcom/bootctrl" />
     <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
@@ -370,11 +368,8 @@
     <remove-project name="platform/system/connectivity/wificond" />
     <remove-project name="platform/system/connectivity/wifilogd" />
     <remove-project name="platform/system/chre" />
-
-    <remove-project name="platform/system/hardware/interfaces" />
     <remove-project name="platform/system/libufdt" />
     <remove-project name="platform/system/nvram" />
-    <remove-project name="platform/system/tools/aidl" />
     <remove-project name="platform/system/tpm" />
     <remove-project name="platform/system/update_engine" />
 
@@ -406,7 +401,17 @@
     <!-- Remove from omni-aosp.xml (forked AOSP) -->
     <remove-project name="android_development" />
 
+
+<!-- The following directories are actually needed
+     from android_frameworks_base (for FBE decryption)
+     * frameworks/base/core/java/android/content   (~4MB)
+     * frameworks/base/core/java/android/security  (<1MB)
+     but syncing a 1GB repo for 4 to 5MB is not worth
+     it for me.
+-->
     <remove-project name="android_frameworks_base" />
+
+
     <remove-project name="android_frameworks_opt_telephony" />
 
     <remove-project name="android_hardware_invensense" />
