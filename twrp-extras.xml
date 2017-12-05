@@ -2,8 +2,10 @@
 <manifest>
 
 <!-- TWRP lives in omnirom android-8.0 (not AOSP!) -->
+<!--
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.0" />
+-->
 
 
 <!-- FBE libs (using AOSP tag android-8.0.0_r34) -->
