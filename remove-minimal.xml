@@ -458,6 +458,6 @@
 
 
   <!-- LAST: Add/Replace repos and particular directories needed by TWRP -->
-  <include name="twrp-minimal-extras.xml" />
+  <include name="twrp-extras.xml" />
 
 </manifest>
