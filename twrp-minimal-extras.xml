@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- FBE libs (using AOSP tag android-8.0.0_r34) -->
+    <!-- libkeymaster1.so -> libkeymaster_portable.so and libkeymaster_staging.so -->
+    <remove-project name="platform/system/keymaster" />
+    <remove-project name="platform/system/security" />
+    <project path="system/keymaster" name="platform/system/keymaster" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
+    <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
+
+    <!-- weaver -->
+    <project path="TeamWin/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+         <!-- TeamWin/AOSP is just a staging directory -->
+        <linkfile src="weaver" dest="hardware/interfaces/weaver" />
+    </project>
+
+    <!-- libkeyutils.so -->
+    <project path="TeamWin/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+         <!-- TeamWin/AOSP is just a staging directory -->
+        <linkfile src="libkeyutils" dest="system/core/libkeyutils" />
+    </project>
+
+
+<!-- busybox -->
+    <project path="external/busybox" name="TeamWin/android_external_busybox" remote="github" revision="android-8.0" />
+
+</manifest>
