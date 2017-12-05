@@ -14,14 +14,14 @@
     <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
 
     <!-- weaver -->
-    <project path="TeamWin/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
-         <!-- TeamWin/AOSP is just a staging directory -->
+    <project path="TeamWin/.repo/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+         <!-- TeamWin/.repo/AOSP is just a staging directory -->
         <linkfile src="weaver" dest="hardware/interfaces/weaver" />
     </project>
 
     <!-- libkeyutils.so -->
-    <project path="TeamWin/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
-         <!-- TeamWin/AOSP is just a staging directory -->
+    <project path="TeamWin/.repo/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+         <!-- TeamWin/.repo/AOSP is just a staging directory -->
         <linkfile src="libkeyutils" dest="system/core/libkeyutils" />
     </project>
 
