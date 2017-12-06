@@ -36,6 +36,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.0" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-8.0" />
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-8.0" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-8.0" />
@@ -48,14 +49,19 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-8.0" />
 
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="omnirom" revision="android-8.0" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-8.0" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-8.0" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-8.0" />
 
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-8.0" />
+
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-8.0" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-8.0" />
 
   <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-8.0" />
@@ -66,4 +72,5 @@
   <project path="system/netd" name="android_system_netd" remote="omnirom" revision="android-8.0" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-8.0" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-8.0" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-8.0" />
 </manifest>
