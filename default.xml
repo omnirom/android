@@ -170,6 +170,7 @@
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk" />
+  <project path="external/jhead" name="platform/external/jhead" revision="nougat-mr2-release" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed,pdk-fs" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk" />
