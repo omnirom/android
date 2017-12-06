@@ -230,6 +230,7 @@
     <remove-project name="platform/frameworks/opt/setupwizard" />
     <remove-project name="platform/frameworks/opt/timezonepicker" />
     <remove-project name="platform/frameworks/opt/vcard" />
+    <remove-project name="platform/frameworks/support" />
     <remove-project name="platform/frameworks/data-binding" />
     <remove-project name="platform/frameworks/webview" />
     <remove-project name="platform/frameworks/wilhelm" />
