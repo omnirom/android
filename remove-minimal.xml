@@ -224,7 +224,6 @@
     <remove-project name="platform/frameworks/opt/inputconnectioncommon" />
     <remove-project name="platform/frameworks/opt/inputmethodcommon" />
     <remove-project name="platform/frameworks/opt/net/ethernet" />
-    <remove-project name="platform/frameworks/opt/net/ims" />
     <remove-project name="platform/frameworks/opt/net/voip" />
     <remove-project name="platform/frameworks/opt/net/wifi" />
     <remove-project name="platform/frameworks/opt/photoviewer" />
@@ -260,7 +259,6 @@
     <remove-project name="platform/packages/apps/CertInstaller" />
     <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/DevCamera" />
-    <remove-project name="platform/packages/apps/Dialer" />
     <remove-project name="platform/packages/apps/DocumentsUI" />
     <remove-project name="platform/packages/apps/Email" />
     <remove-project name="platform/packages/apps/EmergencyInfo" />
@@ -273,7 +271,6 @@
     <remove-project name="platform/packages/apps/OneTimeInitializer" />
     <remove-project name="platform/packages/apps/PackageInstaller" />
     <remove-project name="platform/packages/apps/Phone" />
-    <remove-project name="platform/packages/apps/PhoneCommon" />
     <remove-project name="platform/packages/apps/Protips" />
     <remove-project name="platform/packages/apps/Provision" />
     <remove-project name="platform/packages/apps/QuickSearchBox" />
@@ -299,7 +296,6 @@
     <remove-project name="platform/packages/providers/CalendarProvider" />
     <remove-project name="platform/packages/providers/CallLogProvider" />
     <remove-project name="platform/packages/providers/ContactsProvider" />
-    <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
     <remove-project name="platform/packages/providers/PartnerBookmarksProvider" />
     <remove-project name="platform/packages/providers/TelephonyProvider" />
@@ -326,7 +322,6 @@
     <remove-project name="platform/packages/services/Car" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/NetworkRecommendation" />
-    <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/wallpapers/LivePicker" />
 
     <remove-project name="platform/pdk" />
@@ -400,7 +395,6 @@
     <!-- Remove from omni-aosp.xml (forked AOSP) -->
     <remove-project name="android_development" />
 
-
 <!-- The following directories are actually needed
      from android_frameworks_base (for FBE decryption)
      * frameworks/base/core/java/android/content   (~4MB)
@@ -412,7 +406,7 @@
     <remove-project name="android_frameworks_base" />
 -->
 
-
+    <remove-project name="android_frameworks_opt_net_ims" />
     <remove-project name="android_frameworks_opt_telephony" />
 
     <remove-project name="android_hardware_invensense" />
@@ -424,12 +418,16 @@
     <remove-project name="android_hardware_qcom_wlan" />
 
     <remove-project name="android_packages_apps_Calendar" />
+    <remove-project name="android_packages_apps_Dialer" />
     <remove-project name="android_packages_apps_Launcher3" />
     <remove-project name="android_packages_apps_Gallery2" />
     <remove-project name="android_packages_apps_MusicFX" />
     <remove-project name="android_packages_apps_Nfc" />
+    <remove-project name="android_packages_apps_PhoneCommon"  />
     <remove-project name="android_packages_apps_Settings" />
     <remove-project name="android_packages_inputmethods_LatinIME" />
+    <remove-project name="android_packages_providers_DownloadProvider" />
+    <remove-project name="android_packages_services_Telecomm"  />
     <remove-project name="android_packages_services_Telephony" />
 
     <remove-project name="android_system_bt" />
@@ -443,7 +441,7 @@
     <remove-project name="android_vendor_codeaurora_telephony" />
 
 
-    <!-- Remove from omni-aosp.xml (OmniROM Projects) -->
+    <!-- Remove from omni-default.xml (OmniROM Projects) -->
     <remove-project name="android_packages_apps_DSPManager" />
     <remove-project name="android_packages_apps_Matlog" />
     <remove-project name="android_packages_apps_MonthCalendarWidget" />
