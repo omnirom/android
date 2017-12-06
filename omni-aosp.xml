@@ -33,7 +33,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-8.0" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-8.0" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1-staging" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.0" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-8.0" />
@@ -55,7 +55,7 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-8.0" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-8.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-8.0" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-8.1-staging" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-8.0" />
 
