@@ -15,6 +15,7 @@
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.1" />
 
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-8.0" />
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-8.0" />
 
