@@ -36,6 +36,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.1" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-8.1" />
 
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-8.1" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-8.1" />
