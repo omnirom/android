@@ -1,31 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- TWRP lives in omnirom android-8.0 (not AOSP!) -->
-<!--
+<!-- TWRP lives in omnirom android-8.1 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.0" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" />
+
+
+<!-- The following changes are no longer needed in 8.1 (only kept for reference) -->
+<!-- =========================================================================== -->
+    <!-- FBE libs (using AOSP tag android-8.0.0_r34) -->
+        <!-- libkeymaster1.so -> libkeymaster_portable.so and libkeymaster_staging.so -->
+        <!--
+        <remove-project name="platform/system/keymaster" />
+        <remove-project name="platform/system/security" />
+        <project path="system/keymaster" name="platform/system/keymaster" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
+        <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
+        -->
+
+        <!-- weaver -->
+             <!-- TeamWin/.repo/AOSP is just a staging directory -->
+        <!--
+        <project path="TeamWin/.repo/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+            <linkfile src="weaver" dest="hardware/interfaces/weaver" />
+        </project>
+        -->
+
+        <!-- libkeyutils.so -->
+             <!-- TeamWin/.repo/AOSP is just a staging directory -->
+        <!--
+        <project path="TeamWin/.repo/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+            <linkfile src="libkeyutils" dest="system/core/libkeyutils" />
+        </project>
+        -->
+<!-- =========================================================================== -->
+
+
+<!-- The following directories are actually needed from android_frameworks_base (for FBE decryption)
+     * frameworks/base/core/java/android/content   (~4MB)
+     * frameworks/base/core/java/android/security  (<1MB)
+     not only is it not worth syncing a 1GB repo for 4 to 5MB for me, the added dependencies make
+     the minimal manifest unworkable.
+     So for those that do want to sync frameworks/base but don't want the build to break (eg framworks/support),
+     sync it to the staging are and only link the needed directories.
 -->
-
-
-<!-- FBE libs (using AOSP tag android-8.0.0_r34) -->
-    <!-- libkeymaster1.so -> libkeymaster_portable.so and libkeymaster_staging.so -->
-    <remove-project name="platform/system/keymaster" />
-    <remove-project name="platform/system/security" />
-    <project path="system/keymaster" name="platform/system/keymaster" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
-    <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
-
-    <!-- weaver -->
-    <project path="TeamWin/.repo/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
-         <!-- TeamWin/.repo/AOSP is just a staging directory -->
-        <linkfile src="weaver" dest="hardware/interfaces/weaver" />
-    </project>
-
-    <!-- libkeyutils.so -->
-    <project path="TeamWin/.repo/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
-         <!-- TeamWin/.repo/AOSP is just a staging directory -->
-        <linkfile src="libkeyutils" dest="system/core/libkeyutils" />
-    </project>
+    <project path="TeamWin/.repo/frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" clone-depth="1" >
+        <linkfile src="core/java/android/content" dest="frameworks/base/core/java/android/content" />
+        <linkfile src="core/java/android/security" dest="frameworks/base/core/java/android/security" />
+    </project> />
 
 
 <!-- busybox -->
