@@ -125,6 +125,7 @@
 
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" />

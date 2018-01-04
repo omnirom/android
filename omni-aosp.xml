@@ -72,6 +72,7 @@
 
   <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-8.1" />
   <project path="system/core" name="android_system_core" remote="omnirom" revision="android-8.1" />
+  <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-8.1" />
   <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-8.1" />
   <project path="system/media" name="android_system_media" remote="omnirom" revision="android-8.1" />
   <project path="system/nfc" name="android_system_nfc" remote="omnirom" revision="android-8.1" />
