@@ -244,7 +244,6 @@
     <remove-project name="platform/frameworks/opt/inputconnectioncommon" />
     <remove-project name="platform/frameworks/opt/inputmethodcommon" />
     <remove-project name="platform/frameworks/opt/net/ethernet" />
-    <remove-project name="platform/frameworks/opt/net/ims" />
     <remove-project name="platform/frameworks/opt/net/lowpan" />
     <remove-project name="platform/frameworks/opt/net/voip" />
     <remove-project name="platform/frameworks/opt/photoviewer" />
@@ -277,19 +276,15 @@
     <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/packages/apps/Camera2" />
     <remove-project name="platform/packages/apps/CarrierConfig" />
-    <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
     <remove-project name="platform/packages/apps/CertInstaller" />
-    <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/DevCamera" />
     <remove-project name="platform/packages/apps/DocumentsUI" />
     <remove-project name="platform/packages/apps/Email" />
-    <remove-project name="platform/packages/apps/EmergencyInfo" />
     <remove-project name="platform/packages/apps/ExactCalculator" />
     <remove-project name="platform/packages/apps/HTMLViewer" />
     <remove-project name="platform/packages/apps/KeyChain" />
     <remove-project name="platform/packages/apps/LegacyCamera" />
     <remove-project name="platform/packages/apps/ManagedProvisioning" />
-    <remove-project name="platform/packages/apps/Messaging" />
     <remove-project name="platform/packages/apps/OneTimeInitializer" />
     <remove-project name="platform/packages/apps/PackageInstaller" />
     <remove-project name="platform/packages/apps/Protips" />
@@ -339,12 +334,10 @@
     <remove-project name="platform/packages/apps/Car/SystemUpdater" />
     <remove-project name="platform/packages/apps/Car/UserManagement" />
     <remove-project name="platform/packages/apps/Car/libs" />
-    <remove-project name="platform/packages/apps/PhoneCommon"  />
     <remove-project name="platform/packages/services/BuiltInPrintService" />
     <remove-project name="platform/packages/services/Car" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/NetworkRecommendation" />
-    <remove-project name="platform/packages/services/Telecomm"  />
     <remove-project name="platform/packages/wallpapers/LivePicker" />
 
     <remove-project name="platform/pdk" />
@@ -425,6 +418,7 @@
     <!-- refer to twrp-extras.xml why android_frameworks_base is removed here -->
     <remove-project name="android_frameworks_base" />
 
+    <remove-project name="android_frameworks_opt_net_ims" />
     <remove-project name="android_frameworks_opt_net_wifi" />
     <remove-project name="android_frameworks_opt_telephony" />
 
@@ -438,14 +432,20 @@
     <remove-project name="android_hardware_qcom_wlan" />
 
     <remove-project name="android_packages_apps_Calendar" />
+    <remove-project name="android_packages_apps_CellBroadcastReceiver" />
+    <remove-project name="android_packages_apps_Contacts" />
     <remove-project name="android_packages_apps_Dialer" />
+    <remove-project name="android_packages_apps_EmergencyInfo" />
     <remove-project name="android_packages_apps_Launcher3" />
     <remove-project name="android_packages_apps_Gallery2" />
+    <remove-project name="android_packages_apps_Messaging" />
     <remove-project name="android_packages_apps_MusicFX" />
     <remove-project name="android_packages_apps_Nfc" />
+    <remove-project name="android_packages_apps_PhoneCommon"  />
     <remove-project name="android_packages_apps_Settings" />
     <remove-project name="android_packages_inputmethods_LatinIME" />
     <remove-project name="android_packages_providers_DownloadProvider" />
+    <remove-project name="android_packages_services_Telecomm"  />
     <remove-project name="android_packages_services_Telephony" />
 
     <remove-project name="android_system_bt" />
