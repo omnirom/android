@@ -41,6 +41,7 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" />
 
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/clang" />
   <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/doclava" />
@@ -54,6 +55,7 @@
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/lz4" />
