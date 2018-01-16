@@ -17,6 +17,7 @@
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
 
+  <project path="external/aac" name="android_external_aac" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/doclava" name="android_external_doclava" remote="omnirom" revision="android-7.1" groups="pdk" />
@@ -31,6 +32,7 @@
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnirom" revision="android-7.1" />
   <project path="external/libpng" name="android_external_libpng" remote="omnirom" revision="android-7.1" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
