@@ -53,6 +53,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
