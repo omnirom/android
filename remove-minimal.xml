@@ -13,7 +13,6 @@
     <remove-project name="device/google/wahoo" />
     <remove-project name="device/google/wahoo-kernel" />
 
-    <remove-project name="platform/external/aac" />
     <remove-project name="platform/external/abi-compliance-checker" />
     <remove-project name="platform/external/abi-dumper" />
     <remove-project name="platform/external/adt-infra" />
@@ -37,7 +36,6 @@
     <remove-project name="platform/external/cblas" />
     <remove-project name="platform/external/chromium-libpac" />
     <remove-project name="platform/external/chromium-trace" />
-    <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/cmockery" />
     <remove-project name="platform/external/crcalc" />
     <remove-project name="platform/external/cros/system_api" />
@@ -415,6 +413,9 @@
     <!-- Remove from omni-aosp.xml (forked AOSP) -->
     <remove-project name="android_development" />
 
+    <remove-project name="android_external_aac" />
+    <remove-project name="android_external_chromium-webview" />
+
     <!-- refer to twrp-extras.xml why android_frameworks_base is removed here -->
     <remove-project name="android_frameworks_base" />
 
@@ -463,6 +464,7 @@
     <remove-project name="android_packages_apps_DSPManager" />
     <remove-project name="android_packages_apps_Matlog" />
     <remove-project name="android_packages_apps_MonthCalendarWidget" />
+    <remove-project name="android_packages_apps_OmniChange" />
     <remove-project name="android_packages_apps_OmniClock" />
     <remove-project name="android_packages_apps_OmniGears" />
     <remove-project name="android_packages_services_OmniJaws" />
