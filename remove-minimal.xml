@@ -7,12 +7,6 @@
     <remove-project name="platform/cts" />
     <remove-project name="platform/dalvik" />
 
-    <remove-project name="device/generic/uml" />
-    <remove-project name="device/google/muskie" />
-    <remove-project name="device/google/taimen" />
-    <remove-project name="device/google/wahoo" />
-    <remove-project name="device/google/wahoo-kernel" />
-
     <remove-project name="platform/external/abi-compliance-checker" />
     <remove-project name="platform/external/abi-dumper" />
     <remove-project name="platform/external/adt-infra" />
@@ -258,16 +252,7 @@
     <remove-project name="platform/hardware/broadcom/wlan" />
     <remove-project name="platform/hardware/google/apf" />
     <remove-project name="platform/hardware/google/easel" />
-    <remove-project name="platform/hardware/marvell/bt" />
-    <remove-project name="platform/hardware/qcom/camera" />
     <remove-project name="platform/hardware/qcom/keymaster" />
-    <remove-project name="platform/hardware/qcom/msm8960" />
-    <remove-project name="platform/hardware/qcom/msm8994" />
-    <remove-project name="platform/hardware/qcom/msm8996" />
-    <remove-project name="platform/hardware/qcom/msm8x26" />
-    <remove-project name="platform/hardware/qcom/msm8x27" />
-    <remove-project name="platform/hardware/qcom/msm8x84" />
-    <remove-project name="platform/hardware/qcom/msm8x09" />
 
     <remove-project name="platform/packages/apps/BasicSmsReceiver" />
     <remove-project name="platform/packages/apps/Bluetooth" />
