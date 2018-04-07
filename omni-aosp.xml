@@ -64,6 +64,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-8.1" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-8.1" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-8.1" />
 

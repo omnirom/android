@@ -137,6 +137,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Stk" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
