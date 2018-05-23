@@ -25,6 +25,7 @@
   <project path="packages/apps/OmniChange" name="android_packages_apps_OmniChange" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omnirom" revision="android-8.1" />
+  <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-8.1" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-8.1" />
