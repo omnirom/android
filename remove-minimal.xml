@@ -124,7 +124,6 @@
     <remove-project name="platform/external/libusb" />
     <remove-project name="platform/external/libusb-compat" />
     <remove-project name="platform/external/libvncserver" />
-    <remove-project name="platform/external/libvorbis" />
     <remove-project name="platform/external/libvpx" />
     <remove-project name="platform/external/libvterm" />
     <remove-project name="platform/external/libxml2" />
@@ -427,8 +426,11 @@
     <remove-project name="android_packages_apps_Messaging" />
     <remove-project name="android_packages_apps_MusicFX" />
     <remove-project name="android_packages_apps_Nfc" />
+    <remove-project name="android_packages_apps_OmniBrain" />
+    <remove-project name="android_packages_apps_OmniLib" />
     <remove-project name="android_packages_apps_PhoneCommon"  />
     <remove-project name="android_packages_apps_Settings" />
+    <remove-project name="android_packages_apps_Stk" />
     <remove-project name="android_packages_inputmethods_LatinIME" />
     <remove-project name="android_packages_providers_DownloadProvider" />
     <remove-project name="android_packages_services_Telecomm"  />
