@@ -4,10 +4,14 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <remote  name="omnirom"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
+  <project path="art" name="android_art" remote="omnirom" revision="android-8.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.1" groups="pdk" />
 
   <project path="build/make" name="android_build" remote="omnirom" revision="android-8.1" groups="pdk" >
@@ -29,7 +33,7 @@
   <project path="external/aac" name="android_external_aac" remote="omnirom" revision="android-8.1" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="omnirom" revision="android-8.1" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-8.1" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-8.1" />  
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-8.1" />
   <project path="external/mksh" name="android_external_mksh" remote="omnirom" revision="android-8.1" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-8.1" />
   <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-8.1" />

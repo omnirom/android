@@ -2,7 +2,6 @@
 <manifest>
 
     <!-- Remove from default.xml -->
-    <remove-project name="platform/art" />
     <remove-project name="platform/compatibility/cdd" />
     <remove-project name="platform/cts" />
     <remove-project name="platform/dalvik" />
@@ -394,6 +393,7 @@
 
 
     <!-- Remove from omni-aosp.xml (forked AOSP) -->
+    <remove-project name="android_art" />
     <remove-project name="android_development" />
 
     <remove-project name="android_external_aac" />
