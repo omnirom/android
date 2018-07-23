@@ -360,7 +360,6 @@
     <remove-project name="platform/system/libufdt" />
     <remove-project name="platform/system/nvram" />
     <remove-project name="platform/system/tpm" />
-    <remove-project name="platform/system/update_engine" />
 
     <remove-project name="platform/test/sts" />
 
@@ -437,6 +436,7 @@
 
     <remove-project name="android_system_bt" />
     <remove-project name="android_system_nfc" />
+    <remove-project name="android_system_update_engine" />
 
 
     <!-- Remove from omni-caf.xml (forked CAF) -->

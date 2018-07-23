@@ -88,4 +88,5 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-8.1" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-8.1" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-8.1" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-8.1" />
 </manifest>
