@@ -140,6 +140,7 @@
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
