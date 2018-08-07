@@ -3,11 +3,6 @@
 
   <remove-project name="device/generic/uml" />
 
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
-
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
@@ -18,8 +13,6 @@
   <remove-project name="platform/developers/build" />
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
-
-  <remove-project name="platform/docs/source.android.com" />
 
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
@@ -49,6 +42,10 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
