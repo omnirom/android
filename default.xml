@@ -3,10 +3,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r40"
+  <default revision="refs/tags/android-8.1.0_r42"
            remote="aosp"
            sync-c="true"
            sync-j="12" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
