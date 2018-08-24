@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- TWRP lives in omnirom android-8.1 (not AOSP!) -->
+<!-- TWRP lives in omnirom, not AOSP -->
     <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0" />
 
 
 <!-- The following changes are no longer needed in 8.1 (only kept for reference) -->
