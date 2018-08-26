@@ -50,7 +50,7 @@
   <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-9.0" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-9.0" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-8.1" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-8.1" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-9.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-8.1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-8.1" />
   <project path="hardware/qcom/msm8998" name="android_hardware_qcom_msm8998" remote="omnirom" revision="android-8.1" />
