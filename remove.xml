@@ -91,6 +91,8 @@
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+
   <remove-project name="platform/hardware/marvell/bt" />
   <remove-project name="platform/hardware/nxp/nfc" />
 
