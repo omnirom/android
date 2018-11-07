@@ -14,8 +14,6 @@
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
 
-  <remove-project name="device/asus/fugu" />
-  <remove-project name="device/asus/fugu-kernel" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
@@ -35,8 +33,6 @@
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/dragon" />
-  <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
@@ -44,10 +40,6 @@
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/huawei/angler" />
-  <remove-project name="device/huawei/angler-kernel" />
-  <remove-project name="device/lge/bullhead" />
-  <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />

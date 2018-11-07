@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-9.0.0_r12"
+  <default revision="refs/tags/android-9.0.0_r16"
            remote="aosp"
            sync-c="true"
            sync-j="12" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -32,8 +34,6 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk,pdk" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk,pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -55,21 +55,21 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device,pdk" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
+  <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-  <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon,pdk" />
-  <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon,pdk" clone-depth="1" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
-  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
-  <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie" />
-  <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
+  <project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch" />
+  <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" />
+  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device" />
+  <project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" groups="device" />
+  <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device" clone-depth="1" />
+  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin,pdk" />
+  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin,pdk" clone-depth="1" />
+  <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie,pdk" />
+  <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen,pdk" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
-  <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo" />
-  <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo" clone-depth="1" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
+  <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo,pdk" />
+  <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo,pdk" clone-depth="1" />
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -489,6 +489,16 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk-qcom" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="qcom_sdm845" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
@@ -699,6 +709,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- OmniROM -->
