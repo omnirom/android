@@ -33,6 +33,9 @@
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
@@ -53,6 +56,9 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/nos/host/android" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <remove-project name="platform/external/nos/test/system-test-harness" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
@@ -104,6 +110,10 @@
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
