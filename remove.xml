@@ -37,8 +37,8 @@
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish-kernel" />
-  <remove-project name="device/google/cuttlefish-sepolicy" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/cuttlefish_common" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
