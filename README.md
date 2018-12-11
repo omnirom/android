@@ -67,12 +67,3 @@ Then to sync up:
 Then to build:
 
      cd <source-dir>; . build/envsetup.sh; brunch <device_name>
-
-
-If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
-
-Our official IRC Channels are hosted on Freenode:
-
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
-
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
