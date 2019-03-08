@@ -76,10 +76,12 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" />
+  <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="omnirom" revision="android-9.0" />
 
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-9.0" />
 
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-9.0" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-9.0" />
 
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-9.0" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-9.0" />
