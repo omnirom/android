@@ -55,4 +55,6 @@
 <!-- Use OmniROM busybox -->
     <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
+<!-- Include external Magisk repo for repack binaries -->
+    <project path="external/magisk-prebuilt" name="TeamWin/external_magisk-prebuilt" remote="github" revision="master" />
 </manifest>
