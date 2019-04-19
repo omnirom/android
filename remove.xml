@@ -124,6 +124,7 @@
 
   <remove-project name="kernel/tests" />
 
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
