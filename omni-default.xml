@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
 
@@ -22,7 +21,7 @@
   <project path="external/htop" name="android_external_htop" remote="omnirom" revision="android-9.0" />
   <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-9.0" />
   <project path="external/nano" name="android_external_nano" remote="omnirom" revision="android-9.0" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-8.1"/>
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-9.0"/>
   <project path="external/openssh" name="android_external_openssh" remote="omnirom" revision="android-9.0" />
   <project path="external/powertop" name="android_external_powertop" remote="omnirom" revision="android-9.0" />
   <project path="external/rsync" name="android_external_rsync" remote="omnirom" revision="android-9.0" />
