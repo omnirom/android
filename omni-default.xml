@@ -13,8 +13,6 @@
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-8.1" />
 
-  <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.1" />
-
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-8.1" />
   <project path="external/fuse" name="android_external_fuse" remote="omnirom" revision="android-8.0" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-8.1"/>

@@ -22,8 +22,6 @@
     <remove-project name="platform/external/autotest" />
     <remove-project name="platform/external/bart" />
     <remove-project name="platform/external/blktrace" />
-    <remove-project name="platform/external/brotli" />
-    <remove-project name="platform/external/bsdiff" />
     <remove-project name="platform/external/caliper" />
     <remove-project name="platform/external/c-ares" />
     <remove-project name="platform/external/cblas" />
