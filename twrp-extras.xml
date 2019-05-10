@@ -4,8 +4,8 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 
-<!-- Use TeamWin vendor/omni repo as Omni doesn't accept any updates for recovery purposes
-     TODO: Create vendor/twrp repo to replace this repo -->
+<!-- Use TeamWin repos as Omni doesn't accept any updates for recovery purposes -->
+  <!-- TODO: Create vendor/twrp repo to replace this repo -->
   <project path="vendor/omni" name="android_vendor_omni" remote="TeamWin" revision="android-8.1" />
 
 <!-- TWRP lives in omnirom, not AOSP -->
