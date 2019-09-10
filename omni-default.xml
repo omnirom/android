@@ -17,7 +17,7 @@
 
   <project path="external/bash" name="android_external_bash" remote="omnirom" revision="android-10" />
   <project path="external/htop" name="android_external_htop" remote="omnirom" revision="android-10" />
-  <!--<project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-9.0" />-->
+  <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-10" />
   <!--<project path="external/nano" name="android_external_nano" remote="omnirom" revision="android-9.0" />-->
   <!--<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-9.0"/>-->
   <!--<project path="external/openssh" name="android_external_openssh" remote="omnirom" revision="android-9.0" />-->
