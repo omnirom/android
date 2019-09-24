@@ -5,6 +5,9 @@
            fetch="https://github.com/" />
 
   <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="omnilab"
            fetch="https://gitlab.com/omnirom" />
 
   <remote  name="omnirom"
