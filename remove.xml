@@ -57,6 +57,8 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/nos/host/android" />

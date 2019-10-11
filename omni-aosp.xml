@@ -33,6 +33,8 @@
   <project path="external/aac" name="android_external_aac" remote="omnirom" revision="android-9.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-9.0" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-9.0" />
+  <project path="external/libcups" name="platform/external/libcups" remote="aosp" revision="refs/tags/android-9.0.0_r49" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" revision="refs/tags/android-9.0.0_r49" groups="pdk" />
   <project path="external/mksh" name="android_external_mksh" remote="omnirom" revision="android-9.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-9.0" />
   <project path="external/selinux" name="android_external_selinux" remote="omnirom" revision="android-9.0" />
