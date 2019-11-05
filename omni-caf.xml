@@ -14,4 +14,5 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="omnirom" revision="android-10" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="omnirom" revision="android-10" />
   <project path="vendor/qcom/opensource/display-commonsys-intf" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="omnirom" revision="android-10" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="omnirom" revision="android-10" />
 </manifest>
