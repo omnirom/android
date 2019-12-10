@@ -8,9 +8,9 @@
   <!-- TODO: Create vendor/twrp repo to replace this repo -->
   <project path="vendor/omni" name="android_vendor_omni" remote="TeamWin" revision="android-8.1" />
 
-<!-- TWRP lives in omnirom, not AOSP -->
+<!-- TWRP lives in TeamWin repo, not AOSP -->
     <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
 
 <!-- The following directories are actually needed from android_frameworks_base (for FBE decryption)
      * frameworks/base/core/java/android/content   (~4MB)
