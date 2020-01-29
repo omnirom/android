@@ -36,7 +36,7 @@
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-10" />
   <!--<project path="packages/apps/OmniBrain" name="android_packages_apps_OmniBrain" remote="omnirom" revision="android-9.0" />-->
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omnirom" revision="android-10" />
-  <project path="packages/apps/OmniRecord" name="android_packages_apps_OmniRecord" remote="omnirom" revision="android-10" />
+<!--  <project path="packages/apps/OmniRecord" name="android_packages_apps_OmniRecord" remote="omnirom" revision="android-10" /> -->
   <project path="packages/apps/OmniRemote" name="android_packages_apps_OmniRemote" remote="omnirom" revision="android-10" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-10" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-10" />
