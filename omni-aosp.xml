@@ -53,7 +53,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-10" groups="pdk" />
 
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="omnirom" revision="android-10" />
-  
+
   <!--<project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-9.0" /> -->
   <!-- <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-9.0" /> -->
   <!--<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-9.0" /> -->
@@ -75,11 +75,12 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="omnirom" revision="android-10" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-10" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-10" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-10" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-10" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-10" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-10" />
   <!--<project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" /> -->
-  <!--<project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="omnirom" revision="android-9.0" /> -->  
+  <!--<project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="omnirom" revision="android-9.0" /> -->
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="omnirom" revision="android-10" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="omnirom" revision="android-10" />
 
