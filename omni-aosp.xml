@@ -94,13 +94,13 @@
 
   <!--<project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="omnirom" revision="android-9.0" /> -->
 
+  <project path="system/bpf" name="android_system_bpf" remote="omnirom" revision="android-10" /> -->
   <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-10" />
   <project path="system/core" name="android_system_core" remote="omnirom" revision="android-10" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-10" />
   <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-10" />
   <project path="system/media" name="android_system_media" remote="omnirom" revision="android-10" />
   <project path="system/nfc" name="android_system_nfc" remote="omnirom" revision="android-10" />
-  <!--<project path="system/netd" name="android_system_netd" remote="omnirom" revision="android-9.0" /> -->
   <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-10" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-10" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-10" />
