@@ -3,7 +3,7 @@
 To prevent missue of gerrit - yes unfortunately there are poeple
 out there that do such things - it is required to be registered as
 contributor to submit changes. So if you want to submit patches
-contact us by email to <maxwen42gmail.com> with your gerrit
+contact us by email to <admin@omnirom.net> with your gerrit
 username and/or email so we can add you to this group.
 
 Our ROM is open source, and patches are always welcome!
@@ -78,9 +78,14 @@ Then to build:
 ---------------
 
 The repositories in omni-private are only accessible to registered users
-So if you want to use those please contact us by email to <maxwen42gmail.com>
+So if you want to use those please contact us by email to <admin@omnirom.net>
 with a short description what you want to use them for. Send us your github
 account then we can add you to the group that has read access to those
 repositories.
 
-Changes to those repositories are still accessible on gerrit 
+Changes to those repositories are still accessible on gerrit
+
+You can also build without those repositories if you dont need or
+want the features that are in them. In that case simply remove the include
+
+    <include name="omni-private.xml" />
