@@ -83,4 +83,9 @@ with a short description what you want to use them for. Send us your github
 account then we can add you to the group that has read access to those
 repositories.
 
-Changes to those repositories are still accessible on gerrit 
+Changes to those repositories are still accessible on gerrit
+
+You can also build without those repositories if you dont need or
+want the features that are in them. In that case simply remove the include
+
+    <include name="omni-private.xml" />
