@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- FIRST: Remove unused/forked AOSP Projects -->
-  <include name="remove.xml" />-->
+  <include name="remove.xml" />
 
   <!-- Include forked AOSP -->
-  <include name="omni-aosp.xml" />-->
+  <include name="omni-aosp.xml" />
 
   <!-- Include forked CAF -->
-  <include name="omni-caf.xml" />-->
+  <include name="omni-caf.xml" />
 
-  <include name="omni-private.xml" />-->
+  <!-- include registered repos -->
+  <include name="omni-private.xml" />
 
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-10" />
