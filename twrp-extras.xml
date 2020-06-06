@@ -25,6 +25,10 @@
         <linkfile src="core/java/android/security" dest="frameworks/base/core/java/android/security" />
     </project>
 
+<!-- Use TeamWin boringssl repo - needed for arm devices requiring entropy for decryption -->
+    <remove-project name="platform/external/boringssl" />
+    <project path="external/boringssl" name="external_boringssl" remote="TeamWin" revision="android-8.1" />
+
 <!-- Use OmniROM busybox -->
     <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
