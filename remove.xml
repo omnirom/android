@@ -61,8 +61,6 @@
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
-  <remove-project name="platform/external/nos/host/android" />
-  <remove-project name="platform/external/nos/host/generic" />
   <remove-project name="platform/external/nos/test/system-test-harness" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
