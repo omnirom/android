@@ -12,6 +12,8 @@
   <!-- include registered repos -->
   <include name="omni-private.xml" />
 
+  <include name="omni-extra.xml" />
+
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-10" />
 
@@ -33,7 +35,6 @@
   <project path="external/zip" name="android_external_zip"  remote="omnirom" revision="android-10" />
 
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-10" />
-  <project path="packages/apps/OmniChromium" name="android_packages_apps_OmniChromium" remote="gitlab" revision="android-10" />
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-10" />
-  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-10" />
+
 </manifest>
