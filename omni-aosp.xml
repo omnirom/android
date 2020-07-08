@@ -74,6 +74,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-10" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-10" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-10" />
+  <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="omnirom" revision="android-10" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-10" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-10" />
   <!--<project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="omnirom" revision="android-9.0" /> -->
