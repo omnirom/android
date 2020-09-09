@@ -4,6 +4,10 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 
+    <remote name="LineageOS"
+            fetch="https://github.com/LineageOS"
+            review="https://review.lineageos.org" />
+
 <!-- TWRP lives in TeamWin android-10.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-10.0"/>
@@ -23,6 +27,9 @@
     </project>
 <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master" />
+
+<!-- Include lineage-tools for lzma support -->
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS" revision="lineage-17.1" />
 
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-10.0" />
