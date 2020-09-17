@@ -2,8 +2,8 @@
 <manifest>
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
+  <!--<remove-project name="platform/build" />-->
+  <!--<remove-project name="platform/build/soong" />-->
 
   <!--<remove-project name="platform/development" />-->
 
@@ -41,13 +41,7 @@
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_kernel" />
-  <remove-project name="device/google/cuttlefish_common" />
-  <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/marlin" />
-  <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/wahoo" />
@@ -65,7 +59,7 @@
   <remove-project name="device/sample" />
 
   <remove-project name="platform/external/aac" />
-  <remove-project name="platform/external/e2fsprogs" />
+  <!--<remove-project name="platform/external/e2fsprogs" />-->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libnfnetlink" />
@@ -76,20 +70,20 @@
   <!--<remove-project name="platform/external/skia" />-->
   <remove-project name="platform/external/toybox" />
 
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
+  <!-- <remove-project name="platform/frameworks/av" /> -->
+  <!--<remove-project name="platform/frameworks/base" />-->
+  <!-- <remove-project name="platform/frameworks/native" /> -->
   <remove-project name="platform/frameworks/opt/chips" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <!--<remove-project name="platform/frameworks/opt/telephony" />-->
+  <!--<remove-project name="platform/frameworks/opt/net/ims" />-->
+  <!--<remove-project name="platform/frameworks/opt/net/wifi" />-->
 
   <!--<remove-project name="platform/hardware/invensense" /> -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
 
-  <remove-project name="platform/hardware/nxp/nfc" />
+  <!--<remove-project name="platform/hardware/nxp/nfc" />-->
 
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -137,7 +131,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Provision" />
-  <remove-project name="platform/packages/apps/Settings" />
+  <!--<remove-project name="platform/packages/apps/Settings" />-->
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <!--<remove-project name="platform/packages/apps/Stk" /> -->
   <!--<remove-project name="platform/packages/apps/Tag" /> -->
@@ -150,20 +144,20 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
 
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/services/Telecomm" />
+  <!--<remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />-->
 
   <!--<remove-project name="platform/prebuilts/build-tools" /> -->
 
-  <remove-project name="platform/system/bpf" />
+  <!--<remove-project name="platform/system/bpf" />-->
   <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />
+  <!--<remove-project name="platform/system/core" />-->
   <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/libhidl" />
+  <!--<remove-project name="platform/system/libhidl" />-->
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/vold" />
+  <!--<remove-project name="platform/system/vold" />-->
   <remove-project name="platform/system/hardware/interfaces" />
-  <remove-project name="platform/system/update_engine" />
+  <!--<remove-project name="platform/system/update_engine" />-->
 </manifest>
