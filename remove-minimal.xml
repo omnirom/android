@@ -253,7 +253,7 @@
     <remove-project name="platform/packages/apps/OneTimeInitializer"/>
     <!--<remove-project name="platform/packages/apps/PackageInstaller"/>-->
     <remove-project name="platform/packages/apps/Protips"/>
-    <remove-project name="platform/packages/apps/Provision"/>
+    <!--<remove-project name="platform/packages/apps/Provision"/>-->
     <remove-project name="platform/packages/apps/QuickSearchBox"/>
     <remove-project name="platform/packages/apps/SafetyRegulatoryInfo"/>
     <remove-project name="platform/packages/apps/SecureElement"/>
