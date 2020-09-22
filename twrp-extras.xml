@@ -30,7 +30,7 @@
     <project path="external/boringssl" name="external_boringssl" remote="TeamWin" revision="android-8.1" />
 
 <!-- Include external Magisk repo for repack binaries -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="master" />
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-8.1" />
 
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
     <remove-project name="android_system_update_engine" />
