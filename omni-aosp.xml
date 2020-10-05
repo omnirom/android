@@ -87,8 +87,8 @@
   <!--<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnirom" revision="android-10" />-->
   <!--<project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnirom" revision="android-11" />-->
 
-  <!--<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-10" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-10" />-->
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-11" />
+  <!--<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-10" />-->
 
   <!--<project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="omnirom" revision="android-9.0" /> -->
 
