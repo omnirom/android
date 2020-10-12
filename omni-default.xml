@@ -18,7 +18,7 @@
   <project path="android" name="android" remote="omnirom" revision="android-11" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-11" />
-  <project path="vendor/interfaces" name="android_vendor_interfaces" remote="omnirom" revision="android-10" />
+  <project path="vendor/interfaces" name="android_vendor_interfaces" remote="omnirom" revision="android-11" />
 
   <project path="external/bash" name="android_external_bash" remote="omnirom" revision="android-10" />
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-10" />-->
