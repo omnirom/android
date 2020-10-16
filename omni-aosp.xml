@@ -32,6 +32,7 @@
 
   <!--<project path="external/aac" name="android_external_aac" remote="omnirom" revision="android-10" />-->
   <!--<project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-10" />-->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="omnirom" revision="android-11" />-->
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-11" />
   <!--<project path="external/mksh" name="android_external_mksh" remote="omnirom" revision="android-9.0" /> -->
   <!--<project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-9.0" /> -->
