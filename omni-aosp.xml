@@ -101,8 +101,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-11" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-11" />
   <!--<project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-11" />-->
-  <!--<project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-10" />-->
-  
+  <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-11" />
+
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="a9b70fc1b59747d1334677e539b2ef4c752a59a1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" revision="639243dd5cb2c5ea1313f033c75c8c533813a484"/>
 </manifest>
