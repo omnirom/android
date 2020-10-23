@@ -62,8 +62,6 @@
   <!--<remove-project name="platform/external/e2fsprogs" />-->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/external/libnfnetlink" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
   <!--<remove-project name="platform/external/mksh" /> -->
   <!--<remove-project name="platform/external/tinycompress" /> -->
   <remove-project name="platform/external/selinux" />
@@ -159,7 +157,7 @@
   <remove-project name="platform/system/vold" />
   <!--<remove-project name="platform/system/hardware/interfaces" />-->
   <!--<remove-project name="platform/system/update_engine" />-->
-  
+
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 
