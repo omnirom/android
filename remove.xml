@@ -133,6 +133,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <!--<remove-project name="platform/packages/apps/Stk" /> -->
   <!--<remove-project name="platform/packages/apps/Tag" /> -->
+  <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
