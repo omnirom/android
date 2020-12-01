@@ -12,7 +12,7 @@
   <!-- include registered repos -->
   <include name="omni-private.xml" />
 
-  <!--<include name="omni-extra.xml" />-->
+  <include name="omni-extra.xml" />
 
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-11" />
