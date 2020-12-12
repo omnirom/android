@@ -34,6 +34,9 @@
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/bramble" />
+  <remove-project name="device/google/bramble-kernel" />
+  <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
@@ -42,10 +45,17 @@
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/redfin-kernel" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
@@ -94,7 +104,6 @@
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
@@ -134,6 +143,7 @@
   <!--<remove-project name="platform/packages/apps/Stk" /> -->
   <!--<remove-project name="platform/packages/apps/Tag" /> -->
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
