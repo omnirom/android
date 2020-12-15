@@ -1,0 +1,113 @@
+Build starting...
+Start: Wed Dec 2 21:06:16 UTC 2020 45e01e050e04
+Git:
+1.0-0-ga401558
+commit a401558c2d4dc9438c8eb1a3729775a9d82730bd
+Author: Jian James Astrero 
+Date:   Thu Dec 3 05:01:08 2020 +0800
+
+    example of using extensions
+
+
+Found Android manifest
+Android SDK version: 30. Build tools: 30.0.2
+Installing Android platform 30
+Installing Build-tools 30.0.2 
+Found gradle
+Gradle build script
+Found gradle version: 6.1.1.
+Using gradle wrapper
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Downloading https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+.
+Unzipping /home/jitpack/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1-all.zip to /home/jitpack/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst
+Set executable permissions for: /home/jitpack/.gradle/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/bin/gradle
+
+------------------------------------------------------------
+Gradle 6.1.1
+------------------------------------------------------------
+
+Build time:   2020-01-24 22:30:24 UTC
+Revision:     a8c3750babb99d1894378073499d6716a1a1fa5d
+
+Kotlin:       1.3.61
+Groovy:       2.5.8
+Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
+JVM:          1.8.0_252 (Private Build 25.252-b09)
+OS:           Linux 4.10.0-28-generic amd64
+
+0m3.592s
+Getting tasks: ./gradlew tasks --all
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Tasks: 
+
+WARNING:
+Gradle 'install' task not found. Please add the 'maven' or 'android-maven' plugin.
+See the documentation and examples: https://jitpack.io/docs/
+
+Adding maven plugin
+Found android library build file in kdimens_extensions
+Running: ./gradlew clean -Pgroup=com.github.jianastrero -Pversion=1.0 install
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+
+> Configure project :
+Gradle version Gradle 6.1.1
+
+> Task :clean UP-TO-DATE
+> Task :app:clean UP-TO-DATE
+> Task :kdimens_extensions:clean UP-TO-DATE
+> Task :kdimens_extensions:preBuild UP-TO-DATE
+> Task :kdimens_extensions:preReleaseBuild UP-TO-DATE
+> Task :kdimens_extensions:mergeReleaseJniLibFolders
+> Task :kdimens_extensions:mergeReleaseNativeLibs
+> Task :kdimens_extensions:stripReleaseDebugSymbols NO-SOURCE
+> Task :kdimens_extensions:copyReleaseJniLibsProjectAndLocalJars
+> Task :kdimens_extensions:generateReleaseBuildConfig
+> Task :kdimens_extensions:compileReleaseRenderscript NO-SOURCE
+> Task :kdimens_extensions:compileReleaseAidl NO-SOURCE
+> Task :kdimens_extensions:generateReleaseResValues
+> Task :kdimens_extensions:generateReleaseResources
+> Task :kdimens_extensions:packageReleaseResources
+> Task :kdimens_extensions:mergeReleaseShaders
+> Task :kdimens_extensions:compileReleaseShaders NO-SOURCE
+> Task :kdimens_extensions:generateReleaseAssets UP-TO-DATE
+> Task :kdimens_extensions:packageReleaseAssets
+> Task :kdimens_extensions:packageReleaseRenderscript NO-SOURCE
+> Task :kdimens_extensions:processReleaseJavaRes NO-SOURCE
+> Task :kdimens_extensions:javaPreCompileRelease
+> Task :kdimens_extensions:prepareLintJarForPublish
+> Task :kdimens_extensions:parseReleaseLocalResources
+> Task :kdimens_extensions:processReleaseManifest
+> Task :kdimens_extensions:generateReleaseRFile
+> Task :kdimens_extensions:compileReleaseKotlin
+> Task :kdimens_extensions:compileReleaseJavaWithJavac
+> Task :kdimens_extensions:extractReleaseAnnotations
+> Task :kdimens_extensions:mergeReleaseGeneratedProguardFiles
+> Task :kdimens_extensions:mergeReleaseConsumerProguardFiles
+> Task :kdimens_extensions:mergeReleaseJavaResource
+> Task :kdimens_extensions:syncReleaseLibJars
+> Task :kdimens_extensions:bundleReleaseAar
+> Task :kdimens_extensions:install
+
+BUILD SUCCESSFUL in 10s
+25 actionable tasks: 22 executed, 3 up-to-date
+Build tool exit code: 0
+Looking for artifacts...
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8 -Dhttps.protocols=TLSv1.2
+Looking for pom.xml in build directory and ~/.m2
+Found artifact: com.github.jianastrero:kdimens_extensions:1.0
+2020-12-02T21:06:56.903436508Z
+Exit code: 0
+
+Build artifacts:
+com.github.jianastrero:kdimens-extensions:1.0
+
+Files: 
+com/github/jianastrero/kdimens-extensions/1.0
+com/github/jianastrero/kdimens-extensions/1.0/build.log
+com/github/jianastrero/kdimens-extensions/1.0/kdimens-extensions-1.0-sources.jar
+com/github/jianastrero/kdimens-extensions/1.0/kdimens-extensions-1.0.aar
+com/github/jianastrero/kdimens-extensions/1.0/kdimens-extensions-1.0.pom
+com/github/jianastrero/kdimens-extensions/1.0/kdimens-extensions-1.0.pom.md5
+com/github/jianastrero/kdimens-extensions/1.0/kdimens-extensions-1.0.pom.sha1
