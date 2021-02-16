@@ -4,6 +4,10 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 
+    <remote name="LineageOS"
+            fetch="https://github.com/LineageOS"
+            review="https://review.lineageos.org" />
+
 <!-- TWRP lives in TeamWin repo, not AOSP -->
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
@@ -48,4 +52,8 @@
         <linkfile src="core/java/android/content" dest="frameworks/base/core/java/android/content" />
         <linkfile src="core/java/android/security" dest="frameworks/base/core/java/android/security" />
     </project>
+
+<!-- Include external LineageOS repos for nano -->
+    <project name="android_external_nano" path="external/nano" remote="LineageOS" revision="lineage-15.1" />
+    <project name="android_external_libncurses" path="external/libncurses" remote="LineageOS" revision="lineage-15.1" />
 </manifest>
