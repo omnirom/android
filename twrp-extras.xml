@@ -36,6 +36,9 @@
 <!-- Include lineage-tools for lzma support -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS" revision="lineage-17.1" />
 
+<!-- Include external/bash for bash support -->
+    <project path="external/bash" name="android_external_bash" remote="LineageOS" revision="lineage-17.1" />
+
 <!-- Include external/nano for nano support -->
     <project path="external/nano" name="android_external_nano" remote="LineageOS" revision="lineage-17.1" />
     

@@ -436,6 +436,7 @@
 
 
     <!-- Remove from omni-default.xml (OmniROM Projects) -->
+    <remove-project name="android_external_bash"/>
     <remove-project name="android_packages_apps_Matlog"/>
     <!--<remove-project name="android_packages_apps_MonthCalendarWidget"/>-->
     <remove-project name="android_packages_apps_OmniChange"/>
