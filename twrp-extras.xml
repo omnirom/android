@@ -16,17 +16,6 @@
     <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
 <!-- Use TeamWin repos as Omni doesn't accept any updates for recovery purposes -->
-  <!--remove-project path="build/make" name="android_build" remote="omnirom" revision="android-8.1" />
-  <project path="build/make" name="android_build" remote="TeamWin" revision="android-8.1" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project-->
-    <!-- TODO: Create vendor/twrp repo to replace this repo -->
     <project path="vendor/omni" name="android_vendor_omni" remote="TeamWin" revision="android-8.1" />
 
 <!-- Use TeamWin boringssl repo - needed for arm devices requiring entropy for decryption -->
@@ -40,18 +29,14 @@
     <remove-project name="android_system_update_engine" />
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-8.1" />
 
-<!-- The following directories are actually needed from android_frameworks_base (for FBE decryption)
-     * frameworks/base/core/java/android/content   (~4MB)
-     * frameworks/base/core/java/android/security  (<1MB)
-     not only is it not worth syncing a 1GB repo for 4 to 5MB for me, the added dependencies make
-     the minimal manifest unworkable.
-     So for those that do want to sync frameworks/base but don't want the build to break (eg framworks/support),
-     sync it to the staging are and only link the needed directories.
--->
-    <project path="TeamWin/.repo/frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" clone-depth="1" >
-        <linkfile src="core/java/android/content" dest="frameworks/base/core/java/android/content" />
-        <linkfile src="core/java/android/security" dest="frameworks/base/core/java/android/security" />
-    </project>
+<!-- Include shallow clone of needed external/frameworks folders -->
+    <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" clone-depth="1" />
+    <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" clone-depth="1" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" clone-depth="1" />
+    <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+    <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.1" clone-depth="1" />
+    <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
 
 <!-- Include external LineageOS repos for bash & nano -->
     <project name="android_external_bash" path="external/bash" remote="LineageOS" revision="lineage-15.1" />
