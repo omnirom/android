@@ -53,7 +53,8 @@
         <linkfile src="core/java/android/security" dest="frameworks/base/core/java/android/security" />
     </project>
 
-<!-- Include external LineageOS repos for nano -->
+<!-- Include external LineageOS repos for bash & nano -->
+    <project name="android_external_bash" path="external/bash" remote="LineageOS" revision="lineage-15.1" />
     <project name="android_external_nano" path="external/nano" remote="LineageOS" revision="lineage-15.1" />
     <project name="android_external_libncurses" path="external/libncurses" remote="LineageOS" revision="lineage-15.1" />
 </manifest>
