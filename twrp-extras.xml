@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me" />
+
+    <remote name="LineageOS"
+            fetch="https://github.com/LineageOS"
+            review="https://review.lineageos.org" />
+
+<!-- TWRP lives in TeamWin repo, not AOSP -->
+    <remove-project name="platform/bootable/recovery" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
+
+<!-- Use OmniROM busybox -->
+    <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
+
+<!-- Use TeamWin repos as Omni doesn't accept any updates for recovery purposes -->
+    <project path="vendor/omni" name="android_vendor_omni" remote="TeamWin" revision="android-8.1" />
+
+<!-- Use TeamWin boringssl repo - needed for arm devices requiring entropy for decryption -->
+    <remove-project name="platform/external/boringssl" />
+    <project path="external/boringssl" name="external_boringssl" remote="TeamWin" revision="android-8.1" />
+
+<!-- Include external Magisk repo for repack binaries -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-8.1" />
+
+<!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
+    <remove-project name="android_system_update_engine" />
+    <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-8.1" />
+
+<!-- Include shallow clone of needed external/frameworks folders -->
+    <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" clone-depth="1" />
+    <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" clone-depth="1" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" clone-depth="1" />
+    <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+    <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.1" clone-depth="1" />
+    <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+
+<!-- Include external LineageOS repos for bash & nano -->
+    <project name="android_external_bash" path="external/bash" remote="LineageOS" revision="lineage-15.1" />
+    <project name="android_external_nano" path="external/nano" remote="LineageOS" revision="lineage-15.1" />
+    <project name="android_external_libncurses" path="external/libncurses" remote="LineageOS" revision="lineage-15.1" />
+</manifest>
