@@ -14,7 +14,7 @@ from anywhere else (another ROM, project, etc.), it is imperative that you maint
 work you are seeking to include. Doing so will ensure that credit is given where it is deserved, and the [principles of open source](http://opensource.org/docs/osd)
 are upheld. Your contribution to the project will still be recognized as you will forever be listed as the committer.
 
-If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://gerrit.omnirom.org).
+If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://gerrit.twrp.me).
 This is a very easy task to perform, and is usually done after you commit a patch/fix locally. This is accomplished
 after you type in `git commit -a` , type in the commit message and save. You would then do the following:
 
