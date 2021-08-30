@@ -5,7 +5,7 @@ You can send patches by using:
 
 Pull request, right here on git.
 
-Contact us at https://twrp.zulipchat.com/join/uqfntnofexjzfvgrfc3fzqyz/
+Contact us at https://rebrand.ly/teamwin-recovery-zulip-community
 
 ## Maintaining Authorship ##
 ----------------------
