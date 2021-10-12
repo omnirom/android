@@ -5,4 +5,5 @@
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
     <remove-project name="platform/packages/services/Telephony" />
     <remove-project name="platform/packages/apps/Launcher3" />
+    <remove-project name="platform/packages/modules/Permission"/>
 </manifest>
