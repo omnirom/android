@@ -11,6 +11,20 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
+    <project path="build/make" name="android_build" remote="omnirom" revision="android-12.0" groups="pdk" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-12.0" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
     <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-12.0" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-12.0" />
     <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-12.0" />
