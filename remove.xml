@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" />
+
     <remove-project name="platform/frameworks/base" />
+
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
     <remove-project name="platform/packages/services/Telephony" />
