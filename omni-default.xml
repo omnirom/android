@@ -18,6 +18,7 @@
   <project path="android" name="android" remote="omnirom" revision="android-12.0" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-12.0" />
+  <project path="vendor/interfaces" name="android_vendor_interfaces" remote="omnirom" revision="android-12.0" />
 
   <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-10" />
   <project path="external/tigervnc" name="android_external_tigervnc" remote="omnirom" revision="android-10" />
@@ -27,7 +28,7 @@
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-11" />
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-11" />
   <project path="packages/apps/OmniChromium" name="android_packages_apps_OmniChromium" remote="gitlab" revision="android-11" />
-  <project path="packages/apps/WallpaperCropper2" name="android_packages_apps_WallpaperCropper2" remote="omnirom" revision="android-11" />
+  <project path="packages/apps/WallpaperCropper2" name="android_packages_apps_WallpaperCropper2" remote="omnirom" revision="android-12.0" />
   
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" revision="2caab416f758b648c4034e9f22cb7b76c37203f0" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="omnirom" revision="android-12.0" />
