@@ -28,6 +28,8 @@
     <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="omnirom" revision="android-12.0" />
 
     <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-12.0" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-12.0" />
+
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-12.0" />
     <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-12.0" />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-12.0" />
