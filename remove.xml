@@ -16,4 +16,5 @@
     <remove-project name="platform/packages/modules/Permission"/>
 
     <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/vold" />
 </manifest>
