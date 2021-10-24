@@ -13,4 +13,6 @@
     <remove-project name="platform/packages/services/Telephony" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/modules/Permission"/>
+
+    <remove-project name="platform/system/core" />
 </manifest>
