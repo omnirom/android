@@ -12,6 +12,18 @@
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
 
+<!-- Use TeamWin fork for repacker support -->
+  <remove-project name="android_build" />
+  <project path="build/make" name="android_build" remote="TeamWin" revision="android-8.1" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
 <!-- Use OmniROM busybox -->
     <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
