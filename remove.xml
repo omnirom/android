@@ -11,8 +11,10 @@
 
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/frameworks/opt/chips" />
 
     <remove-project name="platform/packages/apps/Contacts" />
+    <remove-project name="platform/packages/apps/Dialer" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Messaging" />
     <remove-project name="platform/packages/apps/Settings" />
