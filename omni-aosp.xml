@@ -41,6 +41,7 @@
     <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="omnirom" revision="android-12.0" />
 
     <project path="system/core" name="android_system_core" remote="omnirom" revision="android-12.0" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-12.0" />
     <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-12.0" />
     <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-12.0" />
 
