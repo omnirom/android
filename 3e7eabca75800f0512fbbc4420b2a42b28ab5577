@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "219daccb_1635e0ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2022-03-21T20:07:49Z",
+      "side": 1,
+      "message": "guess you can then do it again for 12.1 :)",
+      "revId": "3e7eabca75800f0512fbbc4420b2a42b28ab5577",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    }
+  ]
+}
