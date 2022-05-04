@@ -32,4 +32,6 @@
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
     <remove-project name="platform/packages/modules/DnsResolver" />
+    <remove-project name="platform/packages/modules/Wifi" />
+
 </manifest>
