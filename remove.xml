@@ -9,7 +9,6 @@
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/libdrm" />
-    <remove-project name="platform/external/minigbm" />
 
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />

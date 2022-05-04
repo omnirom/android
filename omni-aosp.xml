@@ -27,7 +27,6 @@
 
     <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="omnirom" revision="android-12.1" />
     <project path="external/libdrm" name="android_external_libdrm" remote="omnirom" revision="android-12.1" />
-    <project path="external/minigbm" name="android_external_minigbm" remote="omnirom" revision="android-12.1" />
 
     <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-12.1" />
     <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-12.1" />
