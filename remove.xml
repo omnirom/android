@@ -34,4 +34,5 @@
     <remove-project name="platform/packages/modules/DnsResolver" />
     <remove-project name="platform/packages/modules/Wifi" />
 
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
 </manifest>
