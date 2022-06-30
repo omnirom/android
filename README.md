@@ -13,7 +13,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-12.0
+    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-12.1
 
 Register at <gerrit.omnirom.org> and use the username that you registered there in the above command
 
@@ -64,7 +64,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OmniROM trees, use a command like this:
 
-    repo init -u https://github.com/omnirom/android.git -b android-12.0
+    repo init -u https://github.com/omnirom/android.git -b android-12.1
 
 Then to sync up:
 
@@ -89,3 +89,18 @@ You can also build without those repositories if you dont need or
 want the features that are in them. In that case simply remove the include
 
     <include name="omni-private.xml" />
+
+## Qcom Repositories ##
+---------------
+
+Most of Qcom repo are moved to our [Gitlab](https://gitlab.com/omnirom), like Display.
+Here, you can find an eg how to add this repo into your dependencies
+
+```bash
+   {
+     "remote": "gitlab",
+     "repository": "android_vendor_qcom_opensource_display-commonsys",
+     "target_path": "vendor/qcom/opensource/commonsys/display",
+     "revision": "android-12.0"
+   }
+```
