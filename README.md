@@ -55,6 +55,15 @@ To initialize a shallow clone, which will save even more space, use a command li
 Then to sync up:
 
     repo sync
+    
+## Python Requirement Note ##
+-----------------------
+
+Before building, make sure you have your system's python implementation set to python2. 
+This project was created before python2 was deprecated and will not build with python3.
+
+## Build ##
+-----
 
 Then to build for a device with recovery partition:
 
