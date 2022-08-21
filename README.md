@@ -13,7 +13,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-12.1
+    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-13.0
 
 Register at <gerrit.omnirom.org> and use the username that you registered there in the above command
 
