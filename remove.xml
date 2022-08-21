@@ -5,19 +5,18 @@
 
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
-
+    <!--<remove-project name="platform/external/chromium-webview" />-->
     <remove-project name="platform/external/drm_hwcomposer" />
-    <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/libdrm" />
 
-    <remove-project name="platform/frameworks/av" />
+    <!--<remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
-    <remove-project name="platform/frameworks/opt/chips" />
+    <remove-project name="platform/frameworks/opt/chips" />-->
 
     <remove-project name="platform/hardware/interfaces" />
 
-    <remove-project name="platform/packages/apps/Contacts" />
+    <!--<remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/Dialer" />
     <remove-project name="platform/packages/apps/EmergencyInfo" />
     <remove-project name="platform/packages/apps/Launcher3" />
@@ -25,15 +24,15 @@
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
     <remove-project name="platform/packages/services/Telecomm" />
-    <remove-project name="platform/packages/services/Telephony" />
+    <remove-project name="platform/packages/services/Telephony" />-->
 
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/security" />
-    <remove-project name="platform/system/sepolicy" />
-    <remove-project name="platform/system/update_engine" />
+    <!--<remove-project name="platform/system/sepolicy" />
+    <remove-project name="platform/system/update_engine" />-->
     <remove-project name="platform/system/vold" />
-    <remove-project name="platform/packages/modules/DnsResolver" />
+    <!--<remove-project name="platform/packages/modules/DnsResolver" />
     <remove-project name="platform/packages/modules/Wifi" />
 
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />-->
 </manifest>
