@@ -5,10 +5,10 @@
            review="gerrit.omnirom.org" />
 
   <!-- private OmniROM Projects -->
-  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom2" revision="android-12.1" />
-  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom2" revision="android-12.0" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom2" revision="android-13.0" />
+  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom2" revision="android-13.0" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omnirom2" revision="android-12.0" />
-  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom2" revision="android-12.0" />
-  <project path="packages/apps/OmniRemote" name="android_packages_apps_OmniRemote" remote="omnirom2" revision="android-12.0" />
-  <project path="packages/apps/OmniControl" name="android_packages_apps_OmniControl" remote="omnirom2" revision="android-12.1" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom2" revision="android-13.0" />
+  <project path="packages/apps/OmniRemote" name="android_packages_apps_OmniRemote" remote="omnirom2" revision="android-13.0" />
+  <project path="packages/apps/OmniControl" name="android_packages_apps_OmniControl" remote="omnirom2" revision="android-13.0" />
 </manifest>
