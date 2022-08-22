@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d331d115_2b0668a8",
+        "filename": "README.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-08-22T14:06:33Z",
+      "side": 1,
+      "message": "need to change it  too :)",
+      "revId": "7cccaf58a3954bc1f56ec0e872ac05dd9ed8d3ab",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    }
+  ]
+}
