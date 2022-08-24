@@ -16,6 +16,24 @@
       "message": "you can rm it too since it not ship in default manifest now",
       "revId": "6e34d86b72bc4a8c63a63e583f1587d1067f9dd4",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c5efc7f_73321678",
+        "filename": "remove.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-08-24T15:26:43Z",
+      "side": 1,
+      "message": "\u003e you can rm it too since it not ship in default manifest now\n\nfix \"fatal: remove-project element specifies non-existent project: platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9\"",
+      "parentUuid": "fadb0716_396aac1f",
+      "revId": "6e34d86b72bc4a8c63a63e583f1587d1067f9dd4",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
     }
   ]
 }
