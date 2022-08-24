@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fadb0716_396aac1f",
+        "filename": "remove.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-08-24T08:47:58Z",
+      "side": 1,
+      "message": "you can rm it too since it not ship in default manifest now",
+      "revId": "6e34d86b72bc4a8c63a63e583f1587d1067f9dd4",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    }
+  ]
+}
