@@ -18,9 +18,9 @@
 
     <!--<remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/Dialer" />
-    <remove-project name="platform/packages/apps/EmergencyInfo" />
+    <remove-project name="platform/packages/apps/EmergencyInfo" />-->
     <remove-project name="platform/packages/apps/Launcher3" />
-    <remove-project name="platform/packages/apps/Messaging" />-->
+    <!--<remove-project name="platform/packages/apps/Messaging" />-->
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
     <!--<remove-project name="platform/packages/services/Telecomm" />-->
