@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "382958dc_6e83a836",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2022-08-25T12:27:05Z",
+      "side": 1,
+      "message": "Guess we start with incremental change  now",
+      "revId": "d668c2bdec6de5e83d8e9c3e95f523996cdcc66b",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    }
+  ]
+}
