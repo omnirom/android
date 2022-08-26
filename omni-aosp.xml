@@ -48,7 +48,7 @@
     <project path="system/core" name="android_system_core" remote="omnirom" revision="android-13.0" />
     <project path="system/security" name="android_system_security" remote="omnirom" revision="android-13.0" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-13.0" />
-    <!--<project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-12.1" />-->
+    <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-13.0" />
     <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-13.0" />
 
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" groups="pdk,linux,x86" clone-depth="1" remote="aosp" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" />
