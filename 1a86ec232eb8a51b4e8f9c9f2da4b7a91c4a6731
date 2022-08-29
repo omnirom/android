@@ -51,6 +51,23 @@
       "message": "https://gerrit.omnirom.org/c/android_packages_apps_Messaging/+/42156",
       "revId": "1a86ec232eb8a51b4e8f9c9f2da4b7a91c4a6731",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "060c6523_56b8bfb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2022-08-29T12:42:47Z",
+      "side": 1,
+      "message": "You can always merge manifest changes right away assuming you pushed the repos in question too ",
+      "revId": "1a86ec232eb8a51b4e8f9c9f2da4b7a91c4a6731",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
     }
   ]
 }
