@@ -16,6 +16,24 @@
       "message": "Need to fix messaging \n\n\" E AndroidRuntime: Caused by: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.\"",
       "revId": "1a86ec232eb8a51b4e8f9c9f2da4b7a91c4a6731",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50f73cd4_34bf55ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-08-29T09:16:44Z",
+      "side": 1,
+      "message": "\u003e Need to fix messaging \n\u003e \n\u003e \" E AndroidRuntime: Caused by: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.\"\nE AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity}: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.\n\nAfter switch to bp",
+      "parentUuid": "b51c1506_fb7b5364",
+      "revId": "1a86ec232eb8a51b4e8f9c9f2da4b7a91c4a6731",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
     }
   ]
 }
