@@ -34,6 +34,23 @@
       "parentUuid": "b51c1506_fb7b5364",
       "revId": "1a86ec232eb8a51b4e8f9c9f2da4b7a91c4a6731",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8bc8b89_670428e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-08-29T09:36:22Z",
+      "side": 1,
+      "message": "https://gerrit.omnirom.org/c/android_packages_apps_Messaging/+/42156",
+      "revId": "1a86ec232eb8a51b4e8f9c9f2da4b7a91c4a6731",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
     }
   ]
 }
