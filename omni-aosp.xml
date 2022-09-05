@@ -5,7 +5,7 @@
            fetch="https://github.com/" />
 
     <remote  name="gitlab"
-           fetch="https://gitlab.com/omnirom" />
+           fetch="ssh://git@gitlab.com/omnirom" />
 
     <remote  name="omnirom"
            fetch="https://github.com/omnirom"
