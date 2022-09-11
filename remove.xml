@@ -5,7 +5,7 @@
 
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
-    <!--<remove-project name="platform/external/chromium-webview" />-->
+    <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/libdrm" />
 
@@ -16,6 +16,7 @@
 
     <remove-project name="platform/hardware/interfaces" />
 
+    <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/Dialer" />
     <!--<remove-project name="platform/packages/apps/EmergencyInfo" />-->
