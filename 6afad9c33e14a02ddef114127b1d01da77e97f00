@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1febeaff_329b121d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-09-13T21:19:38Z",
+      "side": 1,
+      "message": "maybe we can remove the browser2 packages too ?\n",
+      "revId": "6afad9c33e14a02ddef114127b1d01da77e97f00",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    }
+  ]
+}
