@@ -30,8 +30,8 @@
 
     <!--<project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-12.1" />-->
     <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-13.0" />
-    <!--<project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-12.1" />
-    <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" remote="omnirom" revision="android-12.1" />-->
+    <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-13.0" />
+    <!--<project path="frameworks/opt/chips" name="android_frameworks_opt_chips" remote="omnirom" revision="android-12.1" />-->
 
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-13.0" />
 
