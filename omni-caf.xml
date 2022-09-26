@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
+    <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="omnirom"
+    <remote  name="omnirom"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
+
+    <remote  name="qcom"
+           fetch="https://git.codelinaro.org/clo/la"
+           review="codeaurora.org" />
+
+    <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="qcom" revision="0fc0715d9392ca616605c07750211d7ca71f4e36" />
 
 </manifest>
