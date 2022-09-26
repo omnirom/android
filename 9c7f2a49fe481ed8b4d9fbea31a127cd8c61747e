@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c6b3076_4560b4f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002322
+      },
+      "writtenOn": "2022-09-26T15:42:51Z",
+      "side": 1,
+      "message": "working for me \nAdding olg clang for building my sm8250 kernel device working now, device can boot instead of last stable\n\nTARGET_KERNEL_CLANG_VERSION :\u003d r416183b",
+      "revId": "9c7f2a49fe481ed8b4d9fbea31a127cd8c61747e",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55"
+    }
+  ]
+}
