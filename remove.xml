@@ -34,4 +34,5 @@
     <remove-project name="platform/system/vold" />
     <!--<remove-project name="platform/packages/modules/DnsResolver" />
     <remove-project name="platform/packages/modules/Wifi" />-->
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 </manifest>
