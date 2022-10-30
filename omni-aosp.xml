@@ -62,6 +62,6 @@
     <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" groups="pdk,linux,x86" clone-depth="1" remote="aosp" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="aosp" revision="794301a14990fa0cab129696d01fa56e3d24d4c6" />
 
-    <!--<project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="omnirom" revision="android-12.1" />
-    <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="omnirom" revision="android-12.1" />-->
+    <!--<project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="omnirom" revision="android-12.1" />-->
+    <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="omnirom" revision="android-13.0" />
 </manifest>
