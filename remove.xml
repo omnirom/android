@@ -2,6 +2,8 @@
 <manifest>
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
+    <remove-project name="device/google/gs101" />
+    <remove-project name="device/google/raviole" />
 
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
