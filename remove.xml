@@ -17,6 +17,7 @@
     <!--<remove-project name="platform/frameworks/opt/chips" />-->
 
     <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
     <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/packages/apps/Contacts" />
