@@ -25,6 +25,8 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <project path="bionic" name="android_bionic" remote="omnirom" revision="android-13.0" />
+
     <project path="device/google/gs101" name="android_device_google_gs101" remote="omnirom" revision="android-13.0" />
     <project path="device/google/raviole" name="android_device_google_raviole" remote="omnirom" revision="android-13.0" />
 
