@@ -18,6 +18,7 @@
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
     <!--<remove-project name="platform/frameworks/opt/chips" />-->
+    <remove-project name="platform/frameworks/opt/Telephony" />
 
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
