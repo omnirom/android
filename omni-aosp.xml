@@ -66,5 +66,6 @@
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="aosp" revision="794301a14990fa0cab129696d01fa56e3d24d4c6" />
 
     <!--<project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="omnirom" revision="android-12.1" />-->
+    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="omnirom" revision="android-13.0" />
     <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="omnirom" revision="android-13.0" />
 </manifest>
