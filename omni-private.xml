@@ -11,4 +11,5 @@
   <project path="packages/apps/OmniControl" name="android_packages_apps_OmniControl" remote="omnirom2" revision="android-13.0" />
   <project path="packages/apps/OmniOta" name="android_packages_apps_OmniOta" remote="omnirom2" revision="android-13.0" />
   <project path="packages/apps/OmniWallpaper" name="android_packages_apps_OmniWallpaper" remote="omnirom2" revision="android-13.0" />
+  <project path="packages/apps/OmniChromium" name="android_packages_apps_OmniChromium" remote="gitlab" revision="android-13.0" />
 </manifest>
