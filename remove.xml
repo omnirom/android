@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remove-project name="platform/bionic" />
+    <!--<remove-project name="platform/bionic" />
 
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
@@ -17,7 +17,6 @@
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
-    <!--<remove-project name="platform/frameworks/opt/chips" />-->
     <remove-project name="platform/frameworks/opt/telephony" />
 
     <remove-project name="platform/hardware/interfaces" />
@@ -27,7 +26,6 @@
     <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/Dialer" />
-    <!--<remove-project name="platform/packages/apps/EmergencyInfo" />-->
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Messaging" />
     <remove-project name="platform/packages/apps/Settings" />
@@ -44,8 +42,7 @@
 
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
-    <!--<remove-project name="platform/packages/modules/DnsResolver" />-->
     <remove-project name="platform/packages/modules/Bluetooth" />
     <remove-project name="platform/packages/modules/Wifi" />
-    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />-->
 </manifest>
