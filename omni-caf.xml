@@ -12,6 +12,6 @@
            fetch="https://git.codelinaro.org/clo/la"
            review="codeaurora.org" />
 
-    <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="qcom" revision="0fc0715d9392ca616605c07750211d7ca71f4e36" />
+    <!--<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="qcom" revision="0fc0715d9392ca616605c07750211d7ca71f4e36" />-->
 
 </manifest>
