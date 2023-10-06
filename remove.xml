@@ -4,48 +4,46 @@
 
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
-    <remove-project name="device/google/gs101" />
+    <!--<remove-project name="device/google/gs101" />
     <remove-project name="device/google/gs101-sepolicy" />
-    <remove-project name="device/google/raviole" />
+    <remove-project name="device/google/raviole" />-->
 
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
+    
     <remove-project name="platform/external/chromium-webview" />
-    <remove-project name="platform/external/drm_hwcomposer" />
+    <!--<remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/libdrm" />
 
-    <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/av" />-->
     <remove-project name="platform/frameworks/base" />
-    <remove-project name="platform/frameworks/native" />
-    <!--<remove-project name="platform/frameworks/opt/chips" />-->
+    <!--<remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/telephony" />
 
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
-    <remove-project name="platform/hardware/google/pixel-sepolicy" />
+    <remove-project name="platform/hardware/google/pixel-sepolicy" />-->
 
     <remove-project name="platform/packages/apps/Browser2" />
-    <remove-project name="platform/packages/apps/Contacts" />
+    <!--<remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/Dialer" />
-    <!--<remove-project name="platform/packages/apps/EmergencyInfo" />-->
     <remove-project name="platform/packages/apps/Launcher3" />
-    <remove-project name="platform/packages/apps/Messaging" />
+    <remove-project name="platform/packages/apps/Messaging" />-->
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SettingsIntelligence" />
-    <remove-project name="platform/packages/inputmethods/LatinIME" />
-    <remove-project name="platform/packages/services/Telecomm" />
+    <!--<remove-project name="platform/packages/inputmethods/LatinIME" />
+    <remove-project name="platform/packages/services/Telecomm" />-->
     <remove-project name="platform/packages/services/Telephony" />
 
     <remove-project name="platform/system/core" />
-    <remove-project name="platform/system/libhidl" />
-    <remove-project name="platform/system/security" />
+    <!--<remove-project name="platform/system/libhidl" />
+    <remove-project name="platform/system/security" />-->
     <remove-project name="platform/system/sepolicy" />
-    <remove-project name="platform/system/timezone" />
+    <!--<remove-project name="platform/system/timezone" />
 
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
-    <!--<remove-project name="platform/packages/modules/DnsResolver" />-->
     <remove-project name="platform/packages/modules/Bluetooth" />
     <remove-project name="platform/packages/modules/Wifi" />
-    <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+    <remove-project name="platform/prebuilts/clang/host/linux-x86" />-->
 </manifest>
