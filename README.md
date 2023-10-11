@@ -64,7 +64,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OmniROM trees, use a command like this:
 
-    repo init -u https://github.com/omnirom/android.git -b android-14.0
+    repo init -u https://github.com/omnirom/android.git -b android-14.0 --git-lfs
 
 Then to sync up:
 
