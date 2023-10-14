@@ -13,9 +13,10 @@
 
     <remove-project name="platform/external/chromium-webview" />
     <!--<remove-project name="platform/external/drm_hwcomposer" />
-    <remove-project name="platform/external/libdrm" />
+    <remove-project name="platform/external/libdrm" />-->
+    <remove-project name="platform/external/wpa_supplicant_8" />
 
-    <remove-project name="platform/frameworks/av" />-->
+    <!--<remove-project name="platform/frameworks/av" />-->
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
     <!--<remove-project name="platform/frameworks/opt/telephony" />-->

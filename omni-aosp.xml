@@ -32,9 +32,10 @@
     <project path="device/google/raviole" name="android_device_google_raviole" remote="omnirom" revision="android-13.0" />
 
     <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="omnirom" revision="android-13.0" />
-    <project path="external/libdrm" name="android_external_libdrm" remote="omnirom" revision="android-13.0" />
+    <project path="external/libdrm" name="android_external_libdrm" remote="omnirom" revision="android-13.0" />-->
+    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="omnirom" revision="android-14.0" />
 
-    <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-13.0" />-->
+    <!--<project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-13.0" />-->
     <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-14.0" />
     <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-14.0" />
     <!--<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-13.0" />-->
