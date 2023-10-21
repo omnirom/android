@@ -4,9 +4,9 @@
 
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
-    <!--<remove-project name="device/google/gs101" />
+    <remove-project name="device/google/gs101" />
     <remove-project name="device/google/gs101-sepolicy" />
-    <remove-project name="device/google/raviole" />-->
+    <remove-project name="device/google/raviole" />
 
     <remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
@@ -23,7 +23,7 @@
 
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
-    <!--<remove-project name="platform/hardware/google/pixel-sepolicy" />-->
+    <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
     <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/packages/apps/Contacts" />
