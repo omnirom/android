@@ -19,10 +19,10 @@
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-14.0" />
 
-  <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-10" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="omnirom" revision="android-14.0" />
   <project path="external/tigervnc" name="android_external_tigervnc" remote="omnirom" revision="android-14.0" />
   <project path="external/vncflinger" name="android_external_vncflinger" remote="omnirom" revision="android-14.0" />
-  <project path="external/vim" name="android_external_vim" remote="omnirom" revision="android-13.0" />
+  <project path="external/vim" name="android_external_vim" remote="omnirom" revision="android-14.0" />
 
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-13.0" />
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-14.0" />
