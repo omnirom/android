@@ -9,7 +9,7 @@
 
     <remote  name="omnirom"
            fetch="https://github.com/omnirom"
-           review="gerrit.omnirom.org" />
+           review="maxwen.ddns.net" />
 
     <project path="build/make" name="android_build" remote="omnirom" revision="android-14.0" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -29,6 +29,7 @@
 
     <project path="device/google/gs101" name="android_device_google_gs101" remote="omnirom" revision="android-14.0" />
     <project path="device/google/gs101-sepolicy" name="android_device_google_gs101-sepolicy" remote="omnirom" revision="android-14.0" />
+    <project path="device/google/gs101-sepolicy" name="android_device_google_gs-common" remote="omnirom" revision="android-14.0" />
     <project path="device/google/raviole" name="android_device_google_raviole" remote="omnirom" revision="android-14.0" />
 
     <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="omnirom" revision="android-14.0" />
