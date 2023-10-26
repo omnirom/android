@@ -29,6 +29,7 @@
 
     <project path="device/google/gs101" name="android_device_google_gs101" remote="omnirom" revision="android-14.0" />
     <project path="device/google/gs101-sepolicy" name="android_device_google_gs101-sepolicy" remote="omnirom" revision="android-14.0" />
+    <project path="device/google/gs-common" name="android_device_google_gs-common" remote="omnirom" revision="android-14.0" />
     <project path="device/google/raviole" name="android_device_google_raviole" remote="omnirom" revision="android-14.0" />
 
     <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="omnirom" revision="android-14.0" />
