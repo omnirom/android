@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="omnirom2"
            fetch="ssh://git@github.com/omnirom"
-           review="gerrit.omnirom.org" />
+           review="maxwen.ddns.net" />
 
   <!-- private OmniROM Projects -->
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom2" revision="android-14.0" />
