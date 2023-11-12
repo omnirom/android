@@ -78,7 +78,7 @@ Then to build:
 ---------------
 
 The repositories in omni-private are only accessible to registered users
-So if you want to use those please contact us by email to <admin@omnirom.net>
+So if you want to use those please contact us by email to <admin@omnirom.org>
 with a short description what you want to use them for. Send us your github
 account then we can add you to the group that has read access to those
 repositories.
