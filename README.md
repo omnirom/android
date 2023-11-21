@@ -3,7 +3,7 @@
 To prevent missue of gerrit - yes unfortunately there are poeple
 out there that do such things - it is required to be registered as
 contributor to submit changes. So if you want to submit patches
-contact us by email to <admin@omnirom.net> with your gerrit
+contact us by email to <admin@omnirom.org> with your gerrit
 username and/or email so we can add you to this group.
 
 Our ROM is open source, and patches are always welcome!
