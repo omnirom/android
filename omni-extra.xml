@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Older Clang r416183b for kernel />-->
+    <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" remote="github" />
+
 </manifest>
