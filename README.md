@@ -62,7 +62,9 @@ let me fix it because I was found out!" message.
 To get started with OmniROM, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the OmniROM trees, use a command like this:
+To initialize your local repository using the OmniROM trees, install the git-lfs packages and use a command like this:
+
+    sudo apt-get install git-lfs
 
     repo init -u https://github.com/omnirom/android.git -b android-14.0 --git-lfs
 
