@@ -13,7 +13,7 @@ You can send patches by using these commands:
     <make edits>
     git add -A
     git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-14.0
+    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/android-15
 
 Register at <gerrit.omnirom.org> and use the username that you registered there in the above command
 
@@ -66,7 +66,7 @@ To initialize your local repository using the OmniROM trees, install the git-lfs
 
     sudo apt-get install git-lfs
 
-    repo init -u https://github.com/omnirom/android.git -b android-14.0 --git-lfs
+    repo init -u https://github.com/omnirom/android.git -b android-15 --git-lfs
 
 Then to sync up:
 
