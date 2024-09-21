@@ -40,7 +40,7 @@
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="omnirom" revision="android-15" />
 
     <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-15" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="gitlab" revision="android-15" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-15" />
     <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-15" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-15" />
 
@@ -55,11 +55,12 @@
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnirom" revision="android-15" />
     <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="omnirom" revision="android-15" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-15" />
+    <project path="packages/services/Mms" name="android_packages_services_Mms" remote="omnirom" revision="android-15" />
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-15" />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-15" />
 
     <project path="system/bpf" name="android_system_bpf" remote="omnirom" revision="android-15" />
-    <project path="system/core" name="android_system_core" remote="gitlab" revision="android-15" />
+    <project path="system/core" name="android_system_core" remote="omnirom" revision="android-15" />
     <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-15" />
     <project path="system/security" name="android_system_security" remote="omnirom" revision="android-15" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-15" />
