@@ -68,9 +68,17 @@ To initialize your local repository using the OmniROM trees, install the git-lfs
 
     repo init -u https://github.com/omnirom/android.git -b android-15 --git-lfs
 
-Then to sync up:
+Add this alias in your `~/.bashrc` for an automatically sync :
 
-    repo sync
+```bash
+alias repo-lfs="repo sync && repo forall -c git lfs pull"
+```
+
+Then reload your file with `source ~/.bashrc` in the terminal
+
+Then to sync up with the lfs repo:
+
+    repo-lfs
 
 Then to build:
 
