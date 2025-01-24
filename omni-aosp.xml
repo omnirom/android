@@ -40,7 +40,7 @@
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="omnirom" revision="android-15" />
 
     <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-15" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="gitlab" revision="android-15-lfs" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-15-lfs" />
     <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-15" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-15" />
 
