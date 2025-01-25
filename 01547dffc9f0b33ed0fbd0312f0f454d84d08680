@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "664d1f29_cf29bce5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000153
+      },
+      "writtenOn": "2025-01-25T06:50:22Z",
+      "side": 1,
+      "message": "2014: Revert \"manifest: track android-15-lfs branch for fw/base\" | https://gerrit.omnirom.org/c/android/+/2014",
+      "revId": "01547dffc9f0b33ed0fbd0312f0f454d84d08680",
+      "serverId": "ed425d63-8d31-4f40-b4e0-dc35cc52d350"
+    }
+  ],
   "submitRequirementResults": []
 }
