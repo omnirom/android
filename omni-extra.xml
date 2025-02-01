@@ -4,4 +4,9 @@
     <!-- Older Clang r416183b for kernel />-->
     <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" remote="github" />
 
+    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" revision="android-15" remote="omnirom-ssh" >
+        <!-- add guard for AOSP hardware/qcom dir -->
+        <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    </project>
+
 </manifest>
