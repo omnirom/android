@@ -12,4 +12,5 @@
     <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" revision="lineage-22.1" remote="github" clone-depth="1" />
     <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" revision="lineage-22.1" remote="github" />
 
+    <project path="external/ant-wireless/hidl" name="platform/external/ant-wireless/hidl" remote="qcom" revision="4440fcd18901ed4f2463e5420a256c5bd7e16d5f" />
 </manifest>
