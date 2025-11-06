@@ -32,6 +32,7 @@
     <project path="bionic" name="android_bionic" remote="omnirom" revision="android-16" />
 
     <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="omnirom" revision="android-16" />
+    <project path="external/dtc" name="android_external_dtc" remote="omnirom" revision="android-16" />
     <!--<project path="external/libdrm" name="android_external_libdrm" remote="omnirom" revision="android-13.0" />-->
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="omnirom" revision="android-16" />
 

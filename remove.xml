@@ -10,6 +10,7 @@
 
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/drm_hwcomposer" />
+    <remove-project name="platform/external/dtc" />
     <!--<remove-project name="platform/external/libdrm" />-->
     <remove-project name="platform/external/wpa_supplicant_8" />
 
