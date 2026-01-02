@@ -7,6 +7,15 @@
     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" revision="android-16" remote="omnirom-ssh" >
         <!-- add guard for AOSP hardware/qcom dir -->
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+
+        <!-- add guards for CAF repositories -->
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
     </project>
 
     <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" revision="lineage-22.1" remote="github" clone-depth="1" />
