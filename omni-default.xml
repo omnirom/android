@@ -15,7 +15,7 @@
   <include name="omni-extra.xml" />
 
   <!-- OmniROM Projects -->
-  <project path="android" name="android" remote="omnirom" revision="android-15" />
+  <project path="android" name="android" remote="omnirom" revision="android-16" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-16" />
 
