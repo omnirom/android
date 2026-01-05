@@ -36,7 +36,6 @@
     <remove-project name="platform/packages/inputmethods/LatinIME" />
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/UprobeStats" />
-    <remove-project name="platform/packages/modules/Virtualization" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
